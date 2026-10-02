@@ -1,0 +1,188 @@
+/* Kids theme: bright crayon palette, rounded type, chunky press-able buttons.
+   Loaded after styles.css by build.mjs. Fonts are inlined at build time. */
+@font-face{font-family:"Baloo 2";font-style:normal;font-display:swap;font-weight:400 800;src:url(fonts/baloo-2-latin-wght-normal.woff2) format("woff2")}
+@font-face{font-family:"Nunito";font-style:normal;font-display:swap;font-weight:200 1000;src:url(fonts/nunito-latin-wght-normal.woff2) format("woff2")}
+
+:root{
+  --font-display:"Baloo 2","Arial Rounded MT Bold","Trebuchet MS",sans-serif;
+  --font-body:"Nunito","Segoe UI",system-ui,sans-serif;
+  --ink:#1e2a5a; --ink-soft:#47537a; --line:#d7e3f5;
+  --pond:#1d6fe0; --pond-dark:#1452b0; --pond-soft:#e3eeff;
+  --sun:#ffc531; --sun-dark:#d99a00; --sun-soft:#fff3c9;
+  --tangerine:#ff7a2f; --tangerine-dark:#d95a12; --tangerine-soft:#ffe6d6;
+  --leaf:#17a56b; --leaf-dark:#0f8052; --leaf-soft:#d9f5e8;
+  --berry:#e9457a; --berry-dark:#c22a5c; --berry-soft:#fde1ea;
+  --grape:#7052ee; --grape-dark:#5236c8; --grape-soft:#ebe5ff;
+  --background:#f2f7ff; --radius:1.25rem;
+}
+
+/* Type */
+body{font-family:var(--font-body);font-size:17px;color:var(--ink)}
+p{color:var(--ink-soft)}
+h1,h2,h3{color:var(--ink);font-family:var(--font-display);font-weight:700;letter-spacing:0}
+h1{font-size:50px;line-height:1.05;letter-spacing:-.5px}
+h2{font-size:28px;line-height:1.15}
+h3{font-size:21px;line-height:1.2}
+.page-heading h1,.lesson-title h1,.hero-copy h2,.journey-card h3,.celebration h1,.grade-detail h2,.support-copy h2{font-family:var(--font-display);font-weight:800;letter-spacing:-.3px}
+.eyebrow,.label-badge,.journey-card .eyebrow,.support-copy .support-kicker,.art-caption,.tiny-next,.section-heading>span{letter-spacing:.2px;text-transform:none;font-weight:800}
+.eyebrow{color:var(--tangerine-dark);font-size:15px}
+.nav-note{font-family:var(--font-display);font-style:normal;color:var(--grape);font-weight:600;font-size:16px}
+.gold{color:var(--sun-dark)}
+
+/* Header + nav */
+.site-header{border-bottom:0;box-shadow:0 2px 0 var(--line)}
+.brand{color:var(--ink);font-family:var(--font-display);letter-spacing:-.4px;font-size:30px}
+.brand-mark{background:var(--tangerine);color:#fff;border-radius:14px;box-shadow:0 4px 0 var(--tangerine-dark)}
+.brand-star{color:var(--sun)}
+.grade-switch{background:var(--sun-soft)!important;border:2px solid var(--sun)!important;color:var(--ink)!important}
+.learner-switch{border:2px solid var(--line)!important}
+.nav-wrap{border-bottom:2px solid var(--line)}
+.main-nav [data-slot=tabs-trigger]{color:var(--ink-soft)!important;font-weight:700!important;font-size:16px}
+.main-nav [data-state=active]{color:var(--pond)!important;border-bottom:4px solid var(--pond)!important}
+
+/* Buttons: chunky, press-able */
+.primary,.secondary,.coffee-button{border-radius:16px;font-weight:800;font-size:16px;transition:transform .12s,box-shadow .12s,background .15s}
+.primary{background:var(--pond);color:#fff;box-shadow:0 5px 0 var(--pond-dark)}
+.primary:hover:not(:disabled){background:#2a7cf0;transform:translateY(-2px);box-shadow:0 7px 0 var(--pond-dark)}
+.primary:active:not(:disabled){transform:translateY(3px);box-shadow:0 2px 0 var(--pond-dark)}
+.primary:disabled{background:#9db7dc;box-shadow:0 5px 0 #7d98bf;opacity:1}
+.secondary{background:#fff;color:var(--pond-dark);border:2px solid var(--line);box-shadow:0 4px 0 var(--line)}
+.secondary:active:not(:disabled){transform:translateY(2px);box-shadow:0 2px 0 var(--line)}
+.text-button,.card-link{font-weight:800}
+:is(button:focus-visible,a:focus-visible,textarea:focus-visible,summary:focus-visible,input:focus-visible,select:focus-visible){outline:3px solid var(--grape);outline-offset:3px}
+
+/* Cards: thicker borders, flat sticker shadows */
+.journey-card,.activity-card,.path-card,.reading-paper,.creation,.panel,.lesson-panel,.grade-detail,.learner-card,.family-add,.backup-panel,.book-item,.empty-state,.support-card{border:2px solid var(--line);border-radius:24px;box-shadow:0 6px 0 var(--line)}
+
+/* Home hero */
+.unit-label{background:#fff;border:2px solid var(--line);color:var(--ink-soft);font-weight:700}
+.guide-banner{background:var(--grape-soft)!important;border:2px solid #d4c9ff!important;border-radius:20px!important}
+.guide-banner strong{color:var(--grape-dark)!important}
+.hero-card{background:var(--sun-soft);border:2px solid #ffe08a;border-radius:28px;box-shadow:0 6px 0 #ffe08a}
+.hero-art img{-webkit-mask-image:none;mask-image:none}
+.hero-copy h2{font-size:44px;line-height:1.02;color:var(--ink)}
+.hero-copy>p{color:var(--ink-soft);font-size:17px}
+.hero-meta{color:var(--ink-soft);font-weight:700}
+.label-badge{background:var(--tangerine);color:#fff;border-radius:999px;padding:6px 13px;font-size:14px}
+.hero-copy small{color:var(--ink-soft);font-weight:600;font-size:14px}
+.art-caption{background:#ffffffe6;color:var(--ink);text-shadow:none;border-radius:999px;font-size:13px;padding:6px 12px}
+
+.progress-numbers strong{color:var(--pond);font-family:var(--font-display);font-size:34px}
+[data-slot=progress]{background:var(--pond-soft)!important;height:14px!important;border-radius:999px!important}
+[data-slot=progress-indicator]{background:var(--leaf)!important;border-radius:999px!important}
+.step-dot{border:2px solid var(--line);font-weight:800;color:var(--ink-soft)}
+.step-dot.done,.path-number.done{background:var(--leaf)!important;border-color:var(--leaf)!important;color:#fff!important}
+.tiny-next{color:#fff!important;background:var(--berry);border-radius:999px;padding:3px 10px;font-size:12px}
+
+/* Activity cards: each its own crayon */
+.section-heading h2{font-size:30px}
+.activity-card{position:relative;overflow:hidden;padding-top:28px}
+.activity-card h3{font-size:23px}
+.activity-card .icon-box{width:56px;height:56px;border-radius:18px}
+.activity-card:nth-child(1){background:var(--leaf-soft);border-color:#a9e6c9;box-shadow:0 6px 0 #a9e6c9}
+.activity-card:nth-child(1) .icon-box{background:var(--leaf);color:#fff}
+.activity-card:nth-child(1) .card-link{color:var(--leaf-dark)}
+.activity-card:nth-child(2){background:var(--pond-soft);border-color:#b6d1fb;box-shadow:0 6px 0 #b6d1fb}
+.activity-card:nth-child(2) .icon-box{background:var(--pond);color:#fff}
+.activity-card:nth-child(2) .card-link{color:var(--pond-dark)}
+.activity-card:nth-child(3){background:var(--berry-soft);border-color:#f8b8cc;box-shadow:0 6px 0 #f8b8cc}
+.activity-card:nth-child(3) .icon-box{background:var(--berry);color:#fff}
+.activity-card:nth-child(3) .card-link{color:var(--berry-dark)}
+.activity-card:hover{transform:translateY(-3px)}
+
+.yellow{background:var(--sun-soft);color:var(--sun-dark)}
+.green{background:var(--leaf-soft);color:var(--leaf-dark)}
+.blue{background:var(--pond-soft);color:var(--pond)}
+.amber{background:var(--tangerine-soft);color:var(--tangerine-dark)}
+.pink{background:var(--berry-soft);color:var(--berry-dark)}
+
+.family-tip{background:#fff;border:2px dashed #c9b8ff;border-radius:20px}
+.family-tip strong{color:var(--grape-dark)}
+
+/* Grade explorer: one colour per grade */
+.grade-card{border:2px solid var(--line)!important;border-radius:22px!important;box-shadow:0 5px 0 var(--line)}
+.grade-number{font-family:var(--font-display)!important;font-weight:800!important;font-size:44px!important;line-height:1!important}
+.grade-card:nth-child(1){--g:var(--berry);--gs:var(--berry-soft)}
+.grade-card:nth-child(2){--g:var(--tangerine);--gs:var(--tangerine-soft)}
+.grade-card:nth-child(3){--g:var(--sun-dark);--gs:var(--sun-soft)}
+.grade-card:nth-child(4){--g:var(--leaf);--gs:var(--leaf-soft)}
+.grade-card:nth-child(5){--g:var(--pond);--gs:var(--pond-soft)}
+.grade-card:nth-child(6){--g:var(--grape);--gs:var(--grape-soft)}
+.grade-card .grade-number{color:var(--g)!important}
+.grade-card .ready-badge{background:var(--gs)!important;color:var(--ink)!important;font-weight:700}
+.grade-card[aria-pressed=true]{background:var(--gs)!important;border-color:var(--g)!important;box-shadow:0 5px 0 var(--g)!important}
+.goal-grid article{background:var(--pond-soft)!important;border-radius:18px!important}
+.goal-grid article:nth-child(2){background:var(--sun-soft)!important}
+.goal-grid article:nth-child(3){background:var(--leaf-soft)!important}
+.goal-grid article:nth-child(4){background:var(--berry-soft)!important}
+.goal-grid article:nth-child(5){background:var(--grape-soft)!important}
+.goal-grid h3{font-family:var(--font-display)}
+
+/* Path, library, creations */
+.week-picker button{border:2px solid var(--line)!important;border-radius:18px!important}
+.week-picker button[aria-pressed=true]{background:var(--pond)!important;border-color:var(--pond)!important;box-shadow:0 5px 0 var(--pond-dark)}
+.week-picker button[aria-pressed=true] *{color:#fff!important}
+.unit-banner{background:var(--leaf-soft)!important;border:2px solid #a9e6c9!important;border-radius:24px!important}
+.path-number{font-family:var(--font-display);font-weight:800;background:var(--sun);color:var(--ink);border:0}
+.book-item.selected{border-color:var(--pond)!important;background:var(--pond-soft)!important;box-shadow:0 5px 0 #b6d1fb}
+.story-paragraph{font-size:19px;line-height:1.75;color:var(--ink)}
+
+/* Lesson flow */
+.lesson-top>.eyebrow{color:var(--ink-soft)}
+.lesson-title h1{font-size:54px}
+.stage-row b{border:2px solid var(--line);font-family:var(--font-display);font-weight:800}
+.stage-row .current b{background:var(--tangerine)!important;border-color:var(--tangerine)!important;color:#fff!important}
+.stage-row .past b{background:var(--leaf)!important;border-color:var(--leaf)!important;color:#fff!important}
+.stage-row .current{color:var(--tangerine-dark)!important;font-weight:800}
+.lesson-panel h2{font-size:34px}
+.instruction{color:var(--ink);font-size:19px}
+.grade-coach{background:var(--grape-soft)!important;border-left:5px solid var(--grape)!important;border-radius:14px!important}
+.grade-coach strong{color:var(--grape-dark)!important;text-transform:none!important;letter-spacing:0!important;font-size:14px!important}
+.word-tiles button{background:#fff;border:2px solid var(--line);border-radius:20px;box-shadow:0 5px 0 var(--line);color:var(--ink);font-family:var(--font-display);font-weight:700}
+.word-tiles button:nth-child(3n+1){background:var(--sun-soft);border-color:#ffe08a;box-shadow:0 5px 0 #ffe08a}
+.word-tiles button:nth-child(3n+2){background:var(--leaf-soft);border-color:#a9e6c9;box-shadow:0 5px 0 #a9e6c9}
+.word-tiles button:nth-child(3n){background:var(--berry-soft);border-color:#f8b8cc;box-shadow:0 5px 0 #f8b8cc}
+.word-tiles button:active{transform:translateY(3px);box-shadow:0 2px 0 var(--line)}
+.answer-options button{border:2px solid var(--line);border-radius:18px;font-size:18px;font-weight:600;color:var(--ink);box-shadow:0 4px 0 var(--line);transition:transform .12s,border-color .12s}
+.answer-options button>span{background:var(--pond-soft);color:var(--pond-dark);font-family:var(--font-display);font-weight:800;border-radius:10px}
+.answer-options button:hover{border-color:var(--pond);transform:translateY(-1px)}
+.answer-options .chosen{border-color:var(--pond)!important;background:var(--pond-soft)!important;box-shadow:0 4px 0 #b6d1fb}
+.answer-options .chosen>span{background:var(--pond);color:#fff}
+.hint{background:var(--sun-soft);border-radius:16px}
+.feedback{border-radius:16px;font-weight:700}
+textarea,.family-add input,.family-add select,.rename-form input{border:2px solid var(--line)!important;border-radius:16px!important;font-family:var(--font-body)}
+textarea:focus{border-color:var(--pond)!important}
+.celebration h1{font-size:58px;color:var(--ink)}
+.award{background:var(--sun)!important;color:var(--ink)!important;box-shadow:0 6px 0 var(--sun-dark)}
+
+/* Support section */
+.support-section{background:var(--grape-soft)}
+.support-card{background:#fff}
+.coffee-button{background:var(--tangerine)!important;color:#fff!important;box-shadow:0 5px 0 var(--tangerine-dark)!important}
+.coffee-button:active{transform:translateY(3px);box-shadow:0 2px 0 var(--tangerine-dark)!important}
+.site-footer{color:var(--ink-soft)}
+
+@media (max-width:600px){
+  h1{font-size:38px}
+  .hero-copy h2{font-size:36px}
+  .lesson-title h1{font-size:40px}
+  .brand{font-size:25px}
+}
+@media (prefers-reduced-motion:reduce){
+  .primary,.secondary,.answer-options button,.activity-card,.word-tiles button{transition:none;transform:none!important}
+}
+
+/* Readability: lift the small print */
+.stage-row b{width:36px;height:36px;font-size:16px}
+.stage-row>span{font-size:15px;font-weight:700}
+.answer-options button>span{width:36px;height:36px;font-size:17px}
+.guide-banner small,.hero-meta,.journey-list button,.progress-numbers,.family-tip span,.site-footer,.grade-card>span:not(.grade-card-top),.goal-grid small,.book-item small,.week-picker small{font-size:15px!important}
+.activity-card p,.grade-next p,.grade-family p{font-size:16px!important}
+.lesson-top>.eyebrow{font-size:15px}
+.grade-coach p,.grade-coach span{font-size:16px}
+.story-paragraph{font-family:var(--font-body);font-size:20px;font-weight:500}
+.kindergarten-lesson .story-paragraph{font-family:var(--font-display);font-weight:600}
+.week-picker small{letter-spacing:0!important}
+.lesson-panel h2,.reading-paper h2,.learner-card h2,.backup-panel h2,.restore-preview h2,.section-heading h2{font-weight:700}
+.parent-summary strong,.snapshot strong,.learner-stats strong{font-family:var(--font-display)!important;font-weight:800;color:var(--pond)}
+.parent-summary article,.snapshot{border:2px solid var(--line);border-radius:22px;box-shadow:0 5px 0 var(--line)}
