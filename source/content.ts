@@ -47,11 +47,11 @@ const coreLessons = [
     "wordQuestion": "Which word has the same middle sound as map?",
     "wordOptions": [
       "sun",
-      "dam",
+      "bag",
       "sit"
     ],
     "wordAnswer": 1,
-    "wordHint": "Say map slowly. Now say dam. Listen to the middle sound.",
+    "wordHint": "Say map slowly. Now say bag. Listen to the middle sound.",
     "text": [
       "Beavers are builders. They use sticks, mud, and rocks to build dams across streams. A dam holds back water and can make a pond.",
       "Many beavers build a home called a lodge in the pond. A lodge is different from a dam. It has a dry room inside. Its entrance is under the water.",
@@ -59,8 +59,8 @@ const coreLessons = [
     ],
     "question": "What is the difference between a dam and a lodge?",
     "options": [
-      "Both are places to sleep.",
-      "A lodge holds back water.",
+      "Both are homes with a dry room inside.",
+      "A lodge holds back water, and a dam has a dry room.",
       "A dam holds back water. A lodge is a home."
     ],
     "answer": 2,
@@ -90,7 +90,7 @@ const coreLessons = [
     ],
     "wordQuestion": "Which word starts with the two sounds t and w?",
     "wordOptions": [
-      "twig",
+      "twin",
       "nest",
       "stem"
     ],
@@ -103,9 +103,9 @@ const coreLessons = [
     ],
     "question": "Why does a robin use mud in its nest?",
     "options": [
-      "To feed the young birds.",
-      "To help hold the nest together.",
-      "To make a pond."
+      "To keep the eggs warm and soft inside.",
+      "To help hold the parts of the nest together.",
+      "To make the nest the shape of a cup."
     ],
     "answer": 1,
     "hint": "Read the first sentence of paragraph two again.",
@@ -136,10 +136,10 @@ const coreLessons = [
     "wordOptions": [
       "shop",
       "shed",
-      "fish"
+      "dish"
     ],
     "wordAnswer": 2,
-    "wordHint": "The word ends with s and h. Say fish slowly.",
+    "wordHint": "The word ends with s and h. Say dish slowly.",
     "text": [
       "Some rabbits live in burrows. A burrow is a hole or tunnel in the ground. Not all rabbits live this way.",
       "European rabbits dig tunnels with their strong feet. A group of connected tunnels is called a warren. Some tunnels lead to rooms where rabbits can rest.",
@@ -148,8 +148,8 @@ const coreLessons = [
     "question": "How can more than one entrance help a rabbit?",
     "options": [
       "It gives the rabbit another way to escape.",
-      "It makes food grow.",
-      "It turns the burrow into a nest."
+      "It keeps bad weather out of every room in the burrow.",
+      "It lets the rabbit dig tunnels with its strong feet."
     ],
     "answer": 0,
     "hint": "Look for the word entrance in the last paragraph.",
@@ -191,9 +191,9 @@ const coreLessons = [
     ],
     "question": "How are a beaver’s lodge and a rabbit’s burrow alike?",
     "options": [
-      "Both are built in branches.",
-      "Both provide a place to rest and shelter.",
-      "Both are made by digging soil."
+      "Both are built from sticks and mud in ponds.",
+      "Both give an animal rest and shelter.",
+      "Both are made by digging soil under the ground."
     ],
     "answer": 1,
     "hint": "Read paragraph one. Look for the word both.",
@@ -225,10 +225,10 @@ const coreLessons = [
     "wordOptions": [
       "chin",
       "chip",
-      "much"
+      "such"
     ],
     "wordAnswer": 2,
-    "wordHint": "Look for c and h at the end. Say much slowly.",
+    "wordHint": "Look for c and h at the end. Say such slowly.",
     "text": [
       "A seed can hold a tiny young plant. A seed coat protects it. Inside the seed, stored food helps the young plant begin to grow.",
       "A bean seed needs water, air, and the right warmth to sprout. After it takes in water, its coat begins to split. A small root grows out first.",
@@ -237,8 +237,8 @@ const coreLessons = [
     "question": "What happens before the shoot grows upward?",
     "options": [
       "A small root grows out.",
-      "The plant makes a new bean.",
-      "The leaves fall off."
+      "Leaves begin to open in the light.",
+      "The seedling needs light to keep growing."
     ],
     "answer": 0,
     "hint": "Read the last sentence of paragraph two. Then read the start of paragraph three.",
@@ -267,12 +267,12 @@ const coreLessons = [
     ],
     "wordQuestion": "Which word begins with the same th sound as thin?",
     "wordOptions": [
-      "thick",
+      "thump",
       "top",
       "ship"
     ],
     "wordAnswer": 0,
-    "wordHint": "Look for t and h together at the beginning. Say thin and thick.",
+    "wordHint": "Look for t and h together at the beginning. Say thin and thump.",
     "text": [
       "A plant has parts that work together. Roots reach into the soil. They take in water and help hold the plant in place.",
       "The stem supports the plant. It also carries water from the roots toward the leaves. Some stems are soft. The trunk of a tree is a strong, woody stem.",
@@ -280,8 +280,8 @@ const coreLessons = [
     ],
     "question": "Which plant part takes in water from the soil?",
     "options": [
-      "The flower",
-      "The leaf",
+      "The stem",
+      "The leaves",
       "The roots"
     ],
     "answer": 2,
@@ -312,11 +312,11 @@ const coreLessons = [
     "wordQuestion": "Which word has the long a sound, as in cape?",
     "wordOptions": [
       "cat",
-      "made",
+      "gate",
       "map"
     ],
     "wordAnswer": 1,
-    "wordHint": "Say made slowly. Its a sounds like the letter name A.",
+    "wordHint": "Say gate slowly. Its a sounds like the letter name A.",
     "text": [
       "Mia planted a bean seed in a pot. The next morning, she looked at the soil. Nothing had appeared. “Maybe my seed is broken,” she said.",
       "Her grandpa smiled. “Growing takes time. Let us check the soil.” It felt dry, so they added a little water. Mia put the pot in a warm place and kept checking it.",
@@ -324,9 +324,9 @@ const coreLessons = [
     ],
     "question": "What does Mia learn in the story?",
     "options": [
-      "Plants grow in one night.",
-      "Every seed is broken.",
-      "Growing takes time and care."
+      "Plants need to be checked every hour.",
+      "Her first seed was broken from the start.",
+      "Growing takes time, water, and patient care."
     ],
     "answer": 2,
     "hint": "Think about Mia at the beginning and at the end. What changed?",
@@ -353,14 +353,14 @@ const coreLessons = [
       "next",
       "finally"
     ],
-    "wordQuestion": "Which word tells the last step?",
+    "wordQuestion": "Which word also tells the last step?",
     "wordOptions": [
-      "finally",
+      "lastly",
       "first",
       "next"
     ],
     "wordAnswer": 0,
-    "wordHint": "Think about the word final. It means last.",
+    "wordHint": "Look for a word that is built from the word last.",
     "text": [
       "First, put potting soil in a small pot with drainage holes. Plant a bean seed as directed on its packet. Ask a grown-up to help you check the directions.",
       "Next, gently water the soil. Keep it damp rather than soaking wet. Put the pot in a place with the warmth the seed needs. Check it regularly.",
@@ -368,9 +368,9 @@ const coreLessons = [
     ],
     "question": "Why are first, next, and finally useful in this guide?",
     "options": [
-      "They name three kinds of plants.",
+      "They tell the reader which seeds to buy at a store.",
       "They help the reader follow the steps in order.",
-      "They describe the color of a seed."
+      "They show how much water to give the plant."
     ],
     "answer": 1,
     "hint": "Notice where those three words appear: at the beginning of each step.",
@@ -401,10 +401,10 @@ const coreLessons = [
     "wordOptions": [
       "sit",
       "big",
-      "bike"
+      "five"
     ],
     "wordAnswer": 2,
-    "wordHint": "The final e in bike is silent. Listen to the i sound.",
+    "wordHint": "The final e in five is silent. Listen to the i sound.",
     "text": [
       "Leo wanted a book about space, but he did not know where to look. He stood near a shelf full of stories about dogs. “I cannot find a space book,” he said.",
       "The librarian asked, “What would you like to learn?” Leo told her about his interest in the Moon. She showed him the science shelves and helped him choose a book.",
@@ -412,9 +412,9 @@ const coreLessons = [
     ],
     "question": "How does the librarian help Leo solve his problem?",
     "options": [
-      "She writes a new book for him.",
-      "She shows him where to find a book about space.",
-      "She tells him to stop reading."
+      "She helps him find a story about dogs.",
+      "She shows him where to find space books.",
+      "She reads the whole Moon book to him aloud."
     ],
     "answer": 1,
     "hint": "Read the middle paragraph. What does the librarian show Leo?",
@@ -443,7 +443,7 @@ const coreLessons = [
     ],
     "wordQuestion": "Which word has the long e sound spelled ee?",
     "wordOptions": [
-      "feet",
+      "sheep",
       "red",
       "bed"
     ],
@@ -456,9 +456,9 @@ const coreLessons = [
     ],
     "question": "Why are Sam’s labels useful?",
     "options": [
-      "They make the soil heavier.",
-      "They keep all the rain away.",
-      "They show what is planted in each row."
+      "They help Sam lift the heavy bag of soil.",
+      "They tell each neighbor which tools to bring.",
+      "They show the neighbors what is planted in each row."
     ],
     "answer": 2,
     "hint": "Look at what the neighbors know in the last paragraph.",
@@ -488,7 +488,7 @@ const coreLessons = [
     "wordQuestion": "Which word has the same vowel sound as rain?",
     "wordOptions": [
       "run",
-      "mail",
+      "tail",
       "red"
     ],
     "wordAnswer": 1,
@@ -500,9 +500,9 @@ const coreLessons = [
     ],
     "question": "What causes the wheel to wobble?",
     "options": [
-      "A nut that holds the wheel is loose.",
-      "The park is too far away.",
-      "The wagon is the wrong color."
+      "A nut that holds the wheel in place is loose.",
+      "The wagon is pulled too fast to the park.",
+      "One of the other wheels is missing a nut."
     ],
     "answer": 0,
     "hint": "The first two sentences of paragraph two explain the cause.",
@@ -533,10 +533,10 @@ const coreLessons = [
     "wordOptions": [
       "yesterday",
       "under",
-      "because"
+      "since"
     ],
     "wordAnswer": 2,
-    "wordHint": "Finish this sentence: I think it helps ___ it makes our street cleaner.",
+    "wordHint": "Finish this sentence: I think it helps ___ it makes our street cleaner. Because fits. Which other word fits?",
     "text": [
       "A helpful neighbor can do many things. One person might share a book. Another might help care for a shared garden. Different people have different ways to help.",
       "I think caring for shared spaces is an important way to help. When people pick up litter together, the park is more pleasant for everyone. This is one reason for my opinion.",
@@ -546,7 +546,7 @@ const coreLessons = [
     "options": [
       "A helpful neighbor can do many things.",
       "I think caring for shared spaces is an important way to help.",
-      "Different people have different ways to help."
+      "When people pick up litter together, the park is more pleasant for everyone."
     ],
     "answer": 1,
     "hint": "Find the sentence that starts with I think.",
@@ -576,11 +576,11 @@ const coreLessons = [
     "wordQuestion": "Which word has the same long o sound as boat?",
     "wordOptions": [
       "hot",
-      "coat",
+      "soap",
       "cot"
     ],
     "wordAnswer": 1,
-    "wordHint": "Look for oa. Say boat and coat and listen to the middle sound.",
+    "wordHint": "Look for oa. Say boat and soap and listen to the middle sound.",
     "text": [
       "Clouds are made of tiny water droplets, ice crystals, or both. They can look different from one day to the next. Some clouds look puffy. Others spread across the sky like a blanket.",
       "An observer notices details. You might say, “I see a wide gray cloud covering most of the sky.” That sentence describes what you can see now.",
@@ -588,8 +588,8 @@ const coreLessons = [
     ],
     "question": "Which sentence is an observation?",
     "options": [
-      "I think it might rain tomorrow.",
-      "I hope the sun comes out.",
+      "I think it will rain later today.",
+      "I hope the sun will come out after lunch.",
       "I see a gray cloud covering the sky."
     ],
     "answer": 2,
@@ -617,14 +617,14 @@ const coreLessons = [
       "repaint",
       "replay"
     ],
-    "wordQuestion": "What does reread mean?",
+    "wordQuestion": "What does refill mean?",
     "wordOptions": [
-      "Read again",
-      "Read very loudly",
-      "Stop reading"
+      "Fill again",
+      "Fill very slowly",
+      "Stop filling"
     ],
     "wordAnswer": 0,
-    "wordHint": "The prefix re- often means again. The base word is read.",
+    "wordHint": "The prefix re- often means again. The base word is fill.",
     "text": [
       "Ben and his sister Ava packed lunch for a picnic. When they were ready to leave, rain began tapping on the window. Ben put down the basket. “Now our picnic is ruined,” he said.",
       "Ava thought for a moment. Then she spread a blanket on the living room floor. “What if we have our picnic here?” she asked. Ben brought the basket over.",
@@ -632,9 +632,9 @@ const coreLessons = [
     ],
     "question": "How does Ava respond to the rain?",
     "options": [
-      "She throws away the lunch.",
-      "She refuses to have a picnic.",
-      "She suggests having the picnic indoors."
+      "She takes the basket outside to the park anyway.",
+      "She tells Ben the picnic is ruined for good.",
+      "She suggests a picnic in the living room."
     ],
     "answer": 2,
     "hint": "Read Ava’s question in the middle paragraph.",
@@ -661,14 +661,14 @@ const coreLessons = [
       "boxes",
       "birds"
     ],
-    "wordQuestion": "Which word means more than one cloud?",
+    "wordQuestion": "Which word means more than one fox?",
     "wordOptions": [
-      "cloudy",
-      "clouds",
-      "cloud"
+      "foxs",
+      "foxes",
+      "fox"
     ],
     "wordAnswer": 1,
-    "wordHint": "Look for the word cloud with an s at the end.",
+    "wordHint": "Words that end in x add es, like box and boxes.",
     "text": [
       "Monday’s note: “The sky looks blue. I see a few white clouds. The leaves are still. The pavement outside our window is dry.”",
       "Tuesday’s note: “Gray clouds cover most of the sky. Leaves move back and forth. Rain taps on the window. The pavement looks wet.”",
@@ -676,9 +676,9 @@ const coreLessons = [
     ],
     "question": "Which detail is found in Tuesday’s note but not Monday’s?",
     "options": [
-      "The pavement is dry.",
-      "The leaves are still.",
-      "Rain taps on the window."
+      "The pavement outside the window is dry.",
+      "White clouds are in the sky.",
+      "Rain taps on the window, and leaves move."
     ],
     "answer": 2,
     "hint": "Reread the second paragraph, which contains Tuesday’s note.",
@@ -707,12 +707,12 @@ const coreLessons = [
     ],
     "wordQuestion": "Which word has a prefix that means again?",
     "wordOptions": [
-      "reread",
+      "redo",
       "rain",
       "coat"
     ],
     "wordAnswer": 0,
-    "wordHint": "Find the word with re- added before the base word read.",
+    "wordHint": "Find the word with re- added before the base word do.",
     "text": [
       "A weather report can begin with an observation. For example: “Rain is falling, and the pavement is wet.” These details tell the reader what you notice now.",
       "Next, explain a plan that fits the observation. “We will move our chalk drawing activity indoors because the pavement is wet.” The word because connects the plan to a reason.",
@@ -720,9 +720,9 @@ const coreLessons = [
     ],
     "question": "Which plan is supported by the observation of wet pavement?",
     "options": [
-      "Draw with chalk on the wet pavement.",
+      "Draw with chalk on the pavement while it is wet.",
       "Move the drawing activity indoors.",
-      "Say the pavement is dry."
+      "Tell readers the pavement is dry and sunny."
     ],
     "answer": 1,
     "hint": "The second paragraph gives a plan and explains the reason for it.",
@@ -753,11 +753,11 @@ export const kindergartenLessons = [
     "wordQuestion": "Which word rhymes with cat?",
     "wordOptions": [
       "sun",
-      "hat",
+      "bat",
       "dog"
     ],
     "wordAnswer": 1,
-    "wordHint": "Listen to the ending of cat and hat. Both end with the sound at.",
+    "wordHint": "Listen to the ending of cat and bat. Both end with the sound at.",
     "text": [
       "A cat sees a red hat.",
       "The cat sits by the hat.",
@@ -797,12 +797,12 @@ export const kindergartenLessons = [
     ],
     "wordQuestion": "Which word has two claps?",
     "wordOptions": [
-      "rabbit",
+      "pencil",
       "hop",
       "sun"
     ],
     "wordAnswer": 0,
-    "wordHint": "Say rab-bit slowly and clap each part.",
+    "wordHint": "Say pen-cil slowly and clap each part.",
     "text": [
       "A rabbit sits in the grass.",
       "It hears a bird.",
@@ -844,10 +844,10 @@ export const kindergartenLessons = [
     "wordOptions": [
       "map",
       "cat",
-      "sock"
+      "sit"
     ],
     "wordAnswer": 2,
-    "wordHint": "Say sun, sock. Listen to the very first sound.",
+    "wordHint": "Say sun, sit. Listen to the very first sound.",
     "text": [
       "Sam puts on socks.",
       "Sam steps outside.",
@@ -885,14 +885,14 @@ export const kindergartenLessons = [
       "see",
       "bug"
     ],
-    "wordQuestion": "How many words are in: We see a bug?",
+    "wordQuestion": "How many words are in: We see it?",
     "wordOptions": [
+      "Two",
       "Three",
-      "Four",
-      "Five"
+      "Four"
     ],
     "wordAnswer": 1,
-    "wordHint": "Point once for We, once for see, once for a, and once for bug.",
+    "wordHint": "Point once for each word: We, see, it.",
     "text": [
       "We see a bug.",
       "The bug is on a leaf.",
@@ -979,10 +979,10 @@ export const kindergartenLessons = [
     "wordOptions": [
       "map",
       "tap",
-      "seed"
+      "sit"
     ],
     "wordAnswer": 2,
-    "wordHint": "Listen to seed and sun. Their first sounds match.",
+    "wordHint": "Listen to sit and sun. Their first sounds match.",
     "text": [
       "Sam puts a seed in a pot.",
       "Sam adds a little water.",
@@ -1114,10 +1114,10 @@ export const kindergartenLessons = [
     "wordOptions": [
       "sit",
       "sun",
-      "mat"
+      "bag"
     ],
     "wordAnswer": 2,
-    "wordHint": "Say cat and mat slowly. The middle sounds match.",
+    "wordHint": "Say cat and bag slowly. The middle sounds match.",
     "text": [
       "A cat sits on a mat.",
       "The mat is by a bag.",
@@ -1158,11 +1158,11 @@ export const kindergartenLessons = [
     "wordQuestion": "Which word has the same middle sound as pig?",
     "wordOptions": [
       "sun",
-      "dig",
+      "wig",
       "map"
     ],
     "wordAnswer": 1,
-    "wordHint": "Listen to the middle of pig and dig.",
+    "wordHint": "Listen to the middle of pig and wig.",
     "text": [
       "A pig can dig.",
       "The pig digs in mud.",
@@ -1202,12 +1202,12 @@ export const kindergartenLessons = [
     ],
     "wordQuestion": "Which word has the same middle sound as hop?",
     "wordOptions": [
-      "log",
+      "pot",
       "map",
       "sit"
     ],
     "wordAnswer": 0,
-    "wordHint": "Say hop and log. Listen to the vowel in the middle.",
+    "wordHint": "Say hop and pot. Listen to the vowel in the middle.",
     "text": [
       "A frog sees a log.",
       "It hops to the log.",
@@ -1248,7 +1248,7 @@ export const kindergartenLessons = [
     "wordQuestion": "Which word starts with m and ends with p?",
     "wordOptions": [
       "sat",
-      "map",
+      "mop",
       "mat"
     ],
     "wordAnswer": 1,
@@ -1294,10 +1294,10 @@ export const kindergartenLessons = [
     "wordOptions": [
       "pot",
       "sun",
-      "need"
+      "feed"
     ],
     "wordAnswer": 2,
-    "wordHint": "Listen to the ending of seed and need.",
+    "wordHint": "Listen to the ending of seed and feed.",
     "text": [
       "First, Jo plants a seed.",
       "Next, Jo waters the soil.",
@@ -1337,12 +1337,12 @@ export const kindergartenLessons = [
     ],
     "wordQuestion": "Which word begins with the same sound as kite?",
     "wordOptions": [
-      "cup",
+      "cap",
       "sun",
       "map"
     ],
     "wordAnswer": 0,
-    "wordHint": "A grown-up can say kite and cup slowly. Listen to the start.",
+    "wordHint": "A grown-up can say kite and cap slowly. Listen to the start.",
     "text": [
       "Lee has a red kite.",
       "The wind lifts it up.",
@@ -1384,10 +1384,10 @@ export const kindergartenLessons = [
     "wordOptions": [
       "park",
       "sand",
-      "playground"
+      "pancake"
     ],
     "wordAnswer": 2,
-    "wordHint": "Say play-ground. Clap once for each part.",
+    "wordHint": "Say pan-cake. Clap once for each part.",
     "text": [
       "Nia plays in the sand.",
       "Ben plays on the swings.",
@@ -1427,12 +1427,12 @@ export const kindergartenLessons = [
     ],
     "wordQuestion": "Which word rhymes with hat?",
     "wordOptions": [
-      "cat",
+      "mat",
       "sun",
       "pig"
     ],
     "wordAnswer": 0,
-    "wordHint": "Listen to the matching endings in hat and cat.",
+    "wordHint": "Listen to the matching endings in hat and mat.",
     "text": [
       "A gust blows Mo’s hat away.",
       "The hat lands by a tree.",
@@ -1502,14 +1502,14 @@ export const gradeThreeLessons = [
       "recheck",
       "rebuild"
     ],
-    "wordQuestion": "Which word means to check again?",
+    "wordQuestion": "Which word means to fill again?",
     "wordOptions": [
-      "checklist",
-      "recheck",
-      "checking"
+      "fillable",
+      "refill",
+      "filling"
     ],
     "wordAnswer": 1,
-    "wordHint": "Put re- before check.",
+    "wordHint": "Put re- before fill.",
     "text": [
       "Maya found a line of tiny holes in a leaf beside the school path. “A caterpillar ate this,” she said. Her partner, Eli, opened their nature notebook. “Maybe,” he replied. “But did we see a caterpillar?” Maya shook her head. They had seen only the holes and a green leaf lying on the ground.",
       "They drew the leaf and counted six holes. Under their drawing, Eli wrote, “Six holes with uneven edges.” On another line, Maya wrote, “An animal may have eaten part of the leaf.” They marked that second line with a question mark. It was an idea to investigate, not something they had watched happen.",
@@ -1517,17 +1517,17 @@ export const gradeThreeLessons = [
     ],
     "question": "Why do Maya and Eli keep the question mark?",
     "options": [
-      "They cannot count the holes.",
-      "They forgot where the leaf was.",
+      "They counted the holes but lost track of the number.",
+      "They forgot to finish writing the second line.",
       "They have not seen what made the holes."
     ],
     "answer": 2,
     "hint": "Separate what they saw from what they guessed.",
     "explanation": "They observed holes, but the cause was still uncertain.",
     "evidenceOptions": [
-      "They drew the leaf and counted six holes.",
-      "They did not find an animal, so they kept the question mark.",
-      "Eli opened their nature notebook."
+      "They drew the leaf and counted six holes with uneven edges.",
+      "They did not find an animal the next morning, so they kept the question mark.",
+      "On another line, Maya wrote that an animal may have eaten part of the leaf."
     ],
     "evidenceAnswer": 1,
     "evidenceHint": "The second sentence links the missing animal evidence to the question mark.",
@@ -1569,16 +1569,16 @@ export const gradeThreeLessons = [
     ],
     "question": "Why do the students measure both spots at the same time?",
     "options": [
-      "To make the wall shady",
+      "To see which spot gets sunny first in the morning",
       "To make the comparison more useful",
-      "To avoid writing any notes"
+      "To keep the thermometers off the ground"
     ],
     "answer": 1,
     "hint": "What could change between morning and noon?",
     "explanation": "Using the same time helps them compare the two locations without also changing the time of day.",
     "evidenceOptions": [
-      "Their question was simple.",
-      "The students recorded the time, the sky conditions, and both readings.",
+      "They placed matching thermometers at the two spots, kept them off the ground, and waited ten minutes before reading them.",
+      "They suggested the tree spot for the bench, but their teacher asked them to repeat the test on other days.",
       "If they had checked one spot early in the morning and the other at noon, the comparison would have been less useful."
     ],
     "evidenceAnswer": 2,
@@ -1622,16 +1622,16 @@ export const gradeThreeLessons = [
     "question": "Which main idea connects the whole reading?",
     "options": [
       "Different seed features help seeds move.",
-      "Every seed needs an animal to travel.",
-      "Wind always carries seeds a long distance."
+      "Dandelion seeds travel farther than burrs.",
+      "Seeds need a breeze to leave the plant."
     ],
     "answer": 0,
     "hint": "Find an idea that fits both the dandelion and the burr.",
     "explanation": "Both examples explain how a seed feature helps it travel.",
     "evidenceOptions": [
-      "Without a breeze, a seed may stay nearby rather than travel far from the plant.",
+      "A dandelion seed has a light, fluffy part, and when the wind lifts it, the seed can drift through the air before landing.",
       "Although these seeds use different helpers, both have features that can carry them away from the parent plant.",
-      "The fluffy part does not work like an engine."
+      "The burr may cling to a passing animal and fall off somewhere else, without needing a fluffy parachute."
     ],
     "evidenceAnswer": 1,
     "evidenceHint": "The final sentence connects both examples to seed features and movement.",
@@ -1658,11 +1658,11 @@ export const gradeThreeLessons = [
       "sunlight",
       "rainfall"
     ],
-    "wordQuestion": "Which word joins rain and fall?",
+    "wordQuestion": "Which word joins sun and flower?",
     "wordOptions": [
-      "rainy",
-      "rainfall",
-      "falling"
+      "sunny",
+      "sunflower",
+      "flowery"
     ],
     "wordAnswer": 1,
     "wordHint": "Look for both complete smaller words.",
@@ -1673,17 +1673,17 @@ export const gradeThreeLessons = [
     ],
     "question": "Which statement is supported by both notes?",
     "options": [
-      "The garden was watered by a child.",
-      "Exactly five butterflies live in the garden.",
+      "The soil beside the path was dry on both visits.",
+      "Someone used the watering can before each visit.",
       "Butterflies were seen near the purple flowers."
     ],
     "answer": 2,
     "hint": "Look for something observed during both visits.",
     "explanation": "Each note reports butterflies near the same flowers, with different numbers seen.",
     "evidenceOptions": [
-      "A full watering can was beside the gate on Monday.",
+      "Monday: a full watering can sat beside the gate. Tuesday: the watering can was still beside the gate after the rain.",
       "Monday: three children saw a butterfly near the purple flowers. Tuesday: two butterflies were seen near the purple flowers.",
-      "The soil looked dark and wet on Tuesday."
+      "Monday: the soil beside the path looked dry. Tuesday: the soil looked dark and wet after a light rain."
     ],
     "evidenceAnswer": 1,
     "evidenceHint": "The paired detail names a butterfly observation from each note; neither observation counts the entire population.",
@@ -1725,16 +1725,16 @@ export const gradeThreeLessons = [
     ],
     "question": "How does Noor respond when the first bridge sags?",
     "options": [
-      "She decides the task is impossible.",
+      "She asks Ben to get a fresh sheet of paper.",
       "She studies the problem and tries a change.",
-      "She blames Ben for touching the toy."
+      "She decides the toy is too heavy for paper."
     ],
     "answer": 1,
     "hint": "Watch what Noor does before using more paper.",
     "explanation": "Noor looks at the bent part, records it, and changes the folds.",
     "evidenceOptions": [
-      "Noor and Ben were building a bridge from paper.",
-      "Ben put the toy in the middle.",
+      "Noor folded a wide strip and set it in place. When Ben put the toy in the middle, the paper sagged until the toy touched the table.",
+      "This time, the toy stayed above the table. Noor smiled, but she did not call the bridge perfect.",
       "She pointed to the center and sketched it in their notebook. Then she folded the long edges upward to make two narrow sides."
     ],
     "evidenceAnswer": 2,
@@ -1777,17 +1777,17 @@ export const gradeThreeLessons = [
     ],
     "question": "What can you infer about Luis at the audition?",
     "options": [
-      "He acts bravely even though he feels nervous.",
-      "He feels no fear at all.",
-      "He already knows he will get the part."
+      "He acts bravely even though he feels very nervous.",
+      "He is calm because he practiced in the library.",
+      "He is sure the teacher will give him the part."
     ],
     "answer": 0,
     "hint": "Bravery can include trying while afraid.",
     "explanation": "His shaking paper and nervous feelings do not stop him from speaking.",
     "evidenceOptions": [
-      "The school play needed someone to introduce the first scene.",
+      "At lunch, his friend Jo offered to practice with him, so Luis read the introduction twice, first to a chair and then to Jo.",
       "The edges shook a little. His first word was soft, so he took a breath and began the sentence again.",
-      "Luis carefully folded his paper and put it in his pocket."
+      "Luis knew the lines, but his voice grew quiet whenever he stood in front of the class."
     ],
     "evidenceAnswer": 1,
     "evidenceHint": "Shaking shows nervousness; beginning again shows he continues despite it.",
@@ -1829,17 +1829,17 @@ export const gradeThreeLessons = [
     ],
     "question": "How do Tessa and Amir first view the shouted answer differently?",
     "options": [
-      "Both think it ruins every game.",
-      "Amir thinks it helps Tessa draw.",
-      "Tessa sees help; Amir loses a chance to solve it."
+      "Tessa thinks it breaks the rules; Amir thinks it is kind.",
+      "Both see it as help that makes the maze quicker.",
+      "Tessa sees help; Amir sees a lost chance to solve."
     ],
     "answer": 2,
     "hint": "Compare the reason each child gives.",
     "explanation": "Tessa intends to help, while Amir values figuring out the puzzle himself.",
     "evidenceOptions": [
       "Tessa thought she was helping. Amir liked solving the puzzle best.",
-      "Tessa had a chalk box. Amir went back to the start.",
-      "Both children were on the playground."
+      "Tessa planned every turn of the maze. Amir thought the maze looked exciting.",
+      "Tessa invited everyone to try it. Amir went back to the start after asking her to wait."
     ],
     "evidenceAnswer": 0,
     "evidenceHint": "These details explain the two different reactions to the same answer.",
@@ -1881,16 +1881,16 @@ export const gradeThreeLessons = [
     ],
     "question": "How does Jin change during the story?",
     "options": [
-      "He goes from knowing the ending to forgetting every event.",
+      "He goes from feeling proud of the book to blaming his classmates.",
       "He goes from hiding a problem to explaining and repairing it.",
-      "He decides books are not useful."
+      "He goes from losing the page to finding it on his bedroom floor."
     ],
     "answer": 1,
     "hint": "Compare his first hope with what he tells the teacher and families.",
     "explanation": "Jin initially wants the missing page to go unnoticed, then takes responsibility.",
     "evidenceOptions": [
-      "Jin rode a bus and later went home.",
-      "The book had loose rings and a cover.",
+      "Jin remembered spreading the pages on his bedroom floor that morning. He stared at the blank space where the ending should have been.",
+      "On the bus, he opened his bag to check it. The cover was there, but the final page had slipped out of its loose rings.",
       "Jin first hoped no one would notice. Before the reading began, Jin explained that the last page was a class reconstruction."
     ],
     "evidenceAnswer": 2,
@@ -1933,16 +1933,16 @@ export const gradeThreeLessons = [
     ],
     "question": "Which change most directly solves the original direction problem?",
     "options": [
-      "Using smaller letters",
+      "Testing the signs with two new visitors",
       "Naming each room with an arrow at the corner",
-      "Removing all hallway signs"
+      "Keeping a list of questions visitors asked"
     ],
     "answer": 1,
     "hint": "What information was missing when people had to choose?",
     "explanation": "Room names and arrows give visitors the needed information at the decision point.",
     "evidenceOptions": [
-      "A volunteer named Eva noticed families.",
-      "One visitor needed to know whether the room had steps.",
+      "One small sign said “Rooms,” with an arrow pointing forward. The art room was actually to the left, and the music room was to the right.",
+      "The team kept a note of questions visitors still asked, and Eva added one about steps to a list for the manager.",
       "Each sign named a room and used a large arrow. They placed the signs at the corner where visitors had to choose a direction."
     ],
     "evidenceAnswer": 2,
@@ -1985,17 +1985,17 @@ export const gradeThreeLessons = [
     ],
     "question": "What is Rowan’s main opinion?",
     "options": [
-      "The center should try an indoor book-sharing box.",
-      "Every visitor must bring a new book.",
-      "All damaged books are useful."
+      "The center should try an indoor book-sharing box for a month.",
+      "A volunteer should remove damaged books every Friday.",
+      "The entrance shelf is too crowded for a new sign."
     ],
     "answer": 0,
     "hint": "Find the proposal the other sentences support.",
     "explanation": "Rowan proposes the box and gives reading opportunities as reasons to try it.",
     "evidenceOptions": [
-      "A volunteer could check the books each Friday.",
-      "The box would give families something to read while they wait for classes.",
-      "Some people may worry that the box will become untidy."
+      "A volunteer could check the books each Friday and remove damaged copies.",
+      "The box would give families something to read while they wait for their classes to begin.",
+      "Some people may worry that the box will become untidy. That is a reasonable concern."
     ],
     "evidenceAnswer": 1,
     "evidenceHint": "The waiting-time reading opportunity is a reason supporting the proposal; the other details describe upkeep and a concern.",
@@ -2022,14 +2022,14 @@ export const gradeThreeLessons = [
       "response",
       "sample"
     ],
-    "wordQuestion": "What does survey mean in the model sentence?",
+    "wordQuestion": "In “The club read each response, or answer, on the poster,” what does response mean?",
     "wordOptions": [
       "A shelf for books",
-      "A set of questions",
+      "An answer",
       "A type of garden"
     ],
     "wordAnswer": 1,
-    "wordHint": "Read the words between the commas.",
+    "wordHint": "Read the words after or.",
     "text": [
       "The garden club asked ten children at its meeting which project they preferred. Six chose a reading corner, three chose a flower bed, and one chose a tool shelf. Everyone chose just one option. Mina wrote the results on a poster so the club could compare the choices without relying on memory.",
       "“All children want a reading corner,” said Leo. Mina pointed to the numbers. “Six of these ten chose it,” she replied. “That is the most popular choice in our group, but we did not ask every child.” The poster also showed that four children in the meeting had selected something else.",
@@ -2037,8 +2037,8 @@ export const gradeThreeLessons = [
     ],
     "question": "Which conclusion do the results support?",
     "options": [
-      "Every child wants a reading corner.",
-      "No child wants a flower bed.",
+      "Most children in the whole school would choose a reading corner over a flower bed.",
+      "The tool shelf was chosen by four of the ten children.",
       "The reading corner is the most popular choice among these ten children."
     ],
     "answer": 2,
@@ -2046,8 +2046,8 @@ export const gradeThreeLessons = [
     "explanation": "Six is the largest group, but only ten children were asked.",
     "evidenceOptions": [
       "Six chose a reading corner, three chose a flower bed, and one chose a tool shelf.",
-      "Mina wrote the results on a poster.",
-      "The club decided to share the results with another class."
+      "Mina wrote the results on a poster so the club could compare the choices without relying on memory.",
+      "The club decided to share the results with another class and invite more responses."
     ],
     "evidenceAnswer": 0,
     "evidenceHint": "The numbers show which choice leads within the surveyed group.",
@@ -2089,16 +2089,16 @@ export const gradeThreeLessons = [
     ],
     "question": "Which plan best matches the team’s goal of reading access and a clear walkway?",
     "options": [
-      "Plan A, because it uses most of the floor",
+      "Plan A, because a washable rug is easy to roll up and clean",
       "Plan B, because families can get books while the floor stays open",
-      "Neither plan lets people read"
+      "Plan A, because children could sit together on a rug in the middle of the room"
     ],
     "answer": 1,
     "hint": "Use both parts of the goal to compare the plans.",
     "explanation": "The wall pockets provide books without using the walkway.",
     "evidenceOptions": [
-      "The rug would be easy to roll up for cleaning.",
-      "The team had money for only one plan.",
+      "Children could sit together and look at picture books. The rug would be easy to roll up for cleaning.",
+      "They would hold fewer books than a large shelf, so a volunteer would need to choose a small collection.",
       "Families could take a book to the chairs already there. The pockets would leave the floor open."
     ],
     "evidenceAnswer": 2,
@@ -2142,15 +2142,15 @@ export const gradeThreeLessons = [
     "question": "Why does the class test the box over a tray?",
     "options": [
       "To check the repair while keeping any falling pencils together",
-      "To hide the repaired corner",
-      "To make the pencils longer"
+      "To count how many pencils the repaired box could hold before it tore again",
+      "To keep the classroom tables clean while they used tape"
     ],
     "answer": 0,
     "hint": "Connect the tray to the earlier problem of falling pencils.",
     "explanation": "The tray catches anything that might fall while they check whether the repair holds.",
     "evidenceOptions": [
-      "Most of the cardboard was firm.",
-      "They labeled the box “Check on Friday.”",
+      "With the teacher’s help, they reinforced that corner with another piece of cardboard and tape.",
+      "Omar made a note describing the tear, the repair, and the test, and the class labeled the box “Check on Friday.”",
       "They put a few pencils back and lifted the box gently over the tray. Nothing fell out during the test."
     ],
     "evidenceAnswer": 2,
@@ -2193,17 +2193,17 @@ export const gradeThreeLessons = [
     ],
     "question": "How do the two sources work together?",
     "options": [
-      "Both prove a sign always solves waste.",
-      "Both tell only where to buy napkins.",
-      "One describes a problem; the other suggests changes to try."
+      "One gives the teacher’s rules; the other gives a lunch menu.",
+      "Both describe Monday’s lunch from the helper’s point of view.",
+      "One describes a problem; the other suggests changes the class could try."
     ],
     "answer": 2,
     "hint": "Compare the job of each note.",
     "explanation": "The first records wasted napkins, and the second supplies possible ways to change the routine.",
     "evidenceOptions": [
       "Source A reports clean napkins left behind. Source B suggests taking one first and returning if needed.",
-      "Source A mentions Monday. Source B mentions a water station.",
-      "Source A uses the word basket. Source B uses the word class."
+      "Source A says some napkins fell where people walked. Source B says the basket was placed where everyone hurried past.",
+      "Source A was written by a lunch helper. Source B was written during a class discussion."
     ],
     "evidenceAnswer": 0,
     "evidenceHint": "The paired details connect the observed problem with a proposed response.",
@@ -2245,17 +2245,17 @@ export const gradeThreeLessons = [
     ],
     "question": "Why does Asha remove the sentence about blue curtains?",
     "options": [
-      "She dislikes blue.",
+      "It makes the paragraph too short to be finished.",
       "It does not support her request for reading time.",
-      "Every paragraph must have exactly three sentences."
+      "Her partner told her to remove every color word."
     ],
     "answer": 1,
     "hint": "A true detail can still be unrelated to the main idea.",
     "explanation": "The curtain color does not explain why the class should try reading time.",
     "evidenceOptions": [
-      "Asha reread the paragraph aloud.",
+      "She crossed it out and added a clearer plan: ten minutes of reading.",
       "She could not connect the color to her request.",
-      "Her first sentence stated her opinion clearly."
+      "Her paragraph was not better because every sentence was longer."
     ],
     "evidenceAnswer": 1,
     "evidenceHint": "This detail directly explains why the curtain sentence does not belong.",
@@ -2297,17 +2297,17 @@ export const gradeThreeLessons = [
     ],
     "question": "Which recommendation is supported by the trial notes?",
     "options": [
-      "Keep books easy to find and allow other tables to reduce crowding.",
-      "Claim the corner has already improved everyone’s reading.",
-      "Remove all books because nobody used them."
+      "Keep books easy to find and allow readers to use other tables to reduce crowding.",
+      "Add more chairs to the corner, since the trial proved reading improved.",
+      "Close the corner, because only a few children ever wanted to use it."
     ],
     "answer": 0,
     "hint": "Use the evidence about seats, the walkway, and access to books.",
     "explanation": "The notes support keeping easy book access while giving readers more places to sit.",
     "evidenceOptions": [
-      "The class measured no reading improvement during the trial.",
+      "The class measured no reading improvement during the trial; its notes described use of the space.",
       "On Wednesday, three children took books to other tables. Several readers liked having books in one easy-to-find place.",
-      "The class collected its notes after one week."
+      "The class considered keeping the book basket, and another idea was to move the chairs farther from the walkway."
     ],
     "evidenceAnswer": 1,
     "evidenceHint": "These details support both parts of the recommendation: accessible books and flexible seating.",
@@ -2382,26 +2382,26 @@ export const gradeFourLessons = [
     ],
     "question": "What can you infer about Lena?",
     "options": [
-      "She values accurate answers more than appearing to know everything.",
-      "She wants visitors to stop asking questions.",
-      "She no longer needs to learn the map."
+      "She values giving accurate answers more than appearing to know everything.",
+      "She worries that visitors will notice she is new and stop trusting her.",
+      "She prefers working with Mr. Ortiz rather than answering on her own."
     ],
     "answer": 0,
     "hint": "Notice what she does when an answer is uncertain.",
     "explanation": "Lena checks uncertain information and adds what she learns to her notes.",
     "evidenceOptions": [
-      "She arrived early and opened her notebook.",
+      "She had practiced pointing out the station and the market before her first shift began.",
       "She checked the mill location with another volunteer and added a label afterward.",
-      "The map included a station, a market, and a river."
+      "Later, she answered a question about the market without asking anyone for help."
     ],
     "evidenceAnswer": 1,
     "evidenceHint": "Checking before answering and improving her notes both show care for accuracy.",
     "evidenceExplanation": "Checking before answering and improving her notes both show care for accuracy.",
     "reasoningQuestion": "Why is the checking-and-labeling detail stronger than the list of places?",
     "reasoningOptions": [
-      "It is longer, so it must be more reliable.",
+      "It is longer, so it gives a more reliable picture of the whole day.",
       "It describes Lena’s choices; the list only describes the map.",
-      "It proves she already knew every location."
+      "It shows she already knew the mill location before checking."
     ],
     "reasoningAnswer": 1,
     "reasoningHint": "An inference about a person needs evidence of that person’s words or actions.",
@@ -2444,16 +2444,16 @@ export const gradeFourLessons = [
     ],
     "question": "How does the new setting affect the actors?",
     "options": [
-      "It makes the story impossible to perform.",
+      "It makes the actors cut the delivery scene and tell the audience what happened instead.",
       "It leads them to change props and movements while keeping the story clear.",
-      "It lets them use a longer entrance."
+      "It lets them keep every prop by moving the audience farther back."
     ],
     "answer": 1,
     "hint": "Connect the size of the room with the changes they make.",
     "explanation": "The actors adapt how they show the delivery to fit the smaller space.",
     "evidenceOptions": [
-      "It rained on performance day.",
-      "The club had practiced for two weeks.",
+      "On performance day, steady rain moved the show from the wide outdoor stage into a small meeting room.",
+      "The club had rehearsed on the outdoor stage for two weeks with a cart, three chairs, and a long entrance.",
       "The cart blocked the doorway; the actors used a basket and shortened the entrance."
     ],
     "evidenceAnswer": 2,
@@ -2461,9 +2461,9 @@ export const gradeFourLessons = [
     "evidenceExplanation": "The obstacle and the changes together connect the setting to the actors’ response.",
     "reasoningQuestion": "Why does the cart-and-basket detail explain more than the rain detail alone?",
     "reasoningOptions": [
-      "It connects the space problem to a specific response.",
-      "It proves all outdoor stages are too large.",
-      "It tells exactly how long the rain lasted."
+      "It connects the small-room problem to a specific response the actors chose.",
+      "It shows the rain was the most important event in the story.",
+      "It describes the props in more detail than the rain detail does."
     ],
     "reasoningAnswer": 0,
     "reasoningHint": "A cause and a response together explain how the setting changes the action.",
@@ -2506,25 +2506,25 @@ export const gradeFourLessons = [
     ],
     "question": "Which theme is best supported by the story?",
     "options": [
-      "A project looks better when one person controls everything.",
+      "Taking credit for your own idea is more important than finishing on time.",
       "Recognizing others’ contributions can make shared success more honest.",
-      "Artists should never write their names on their work."
+      "Working on a team means no one should feel proud of their own part."
     ],
     "answer": 1,
     "hint": "Consider what Ari learns about the work behind the poster.",
     "explanation": "Ari keeps pride in his own work while acknowledging the contributions that made the project possible.",
     "evidenceOptions": [
       "Ari replaces the single name with the team’s name and describes everyone’s work to visitors.",
-      "The poster title looks like gears.",
-      "The fair has a date and a location."
+      "Ari made the title letters look like tiny gears and drew a bright border around them before the teacher praised it.",
+      "At first, Ari considered leaving the name alone because the drawing had been his idea."
     ],
     "evidenceAnswer": 0,
     "evidenceHint": "Ari’s changed credit and later explanation both develop the theme of recognizing contributions.",
     "evidenceExplanation": "Ari’s changed credit and later explanation both develop the theme of recognizing contributions.",
     "reasoningQuestion": "Why do Ari’s decisions support a theme better than the poster’s appearance?",
     "reasoningOptions": [
-      "The border is not colorful enough.",
-      "A theme must include every event in order.",
+      "The poster’s appearance changes during the story, so it cannot show any lesson about the characters.",
+      "A theme must come from the part of the story with the most specific visual details.",
       "His decisions show a lesson about shared work, while appearance only describes the poster."
     ],
     "reasoningAnswer": 2,
@@ -2568,26 +2568,26 @@ export const gradeFourLessons = [
     ],
     "question": "Which is the best summary?",
     "options": [
-      "A hall has a clock, a basket, ribbon, and visitors.",
-      "June likes lanterns more than programs and wants to make another one.",
-      "A torn loop prevents a lantern from hanging, so June’s group reorganizes a table and displays it on a stand."
+      "June’s group borrows ribbon from another group, makes a new loop, and hangs the lantern before the doors open.",
+      "The hall prepares for a display, and June finds a basket for the programs beside the entrance at the last minute.",
+      "A torn loop prevents a lantern from hanging, so June’s group clears space on a table and displays it on a stand."
     ],
     "answer": 2,
     "hint": "Keep the central problem, key response, and result.",
     "explanation": "The summary includes the problem and the solution without listing unrelated objects.",
     "evidenceOptions": [
-      "The clock was above the entrance.",
+      "They found only a short piece of ribbon, and when they asked another group, no spare ribbon remained.",
       "The loop was torn, and the group later set the lantern on a stand after clearing space.",
-      "The group found a short piece of ribbon."
+      "The clock above the entrance moved closer to opening time while the group searched for spare ribbon."
     ],
     "evidenceAnswer": 1,
     "evidenceHint": "These details capture the main problem and the successful response.",
     "evidenceExplanation": "These details capture the main problem and the successful response.",
     "reasoningQuestion": "Why is the problem-and-solution evidence stronger for a summary than the clock detail?",
     "reasoningOptions": [
-      "It includes the central events that connect the beginning to the outcome.",
-      "It uses more names for objects.",
-      "It proves the display lasted all night."
+      "It includes the central events that connect the story’s beginning to its outcome.",
+      "It gives the exact time the doors opened, which a summary must include.",
+      "It names more objects from the hall, so the summary will be more complete."
     ],
     "reasoningAnswer": 0,
     "reasoningHint": "A useful summary keeps the events needed to understand what happened.",
@@ -2608,7 +2608,7 @@ export const gradeFourLessons = [
     "label": "A Display That People Can Read",
     "focus": "Problem–solution structure",
     "pattern": "The root graph",
-    "model": "The Greek root graph relates to writing or drawing. A graphic presents information visually.",
+    "model": "The Greek root graph relates to writing or drawing. An autograph is a person’s own handwritten name.",
     "words": [
       "graphic",
       "autograph",
@@ -2618,10 +2618,10 @@ export const gradeFourLessons = [
     "wordOptions": [
       "autograph",
       "graphic",
-      "graphite pencil box"
+      "paragraph"
     ],
     "wordAnswer": 1,
-    "wordHint": "Look for the word used in the model sentence.",
+    "wordHint": "Think about drawing as a way to show information.",
     "text": [
       "The science club made an information display for a school evening. It contained twelve long paragraphs printed in small type. At the practice viewing, visitors stood close to the board and leaned around each other to read it. Several left before reaching the last section. The club wanted to explain its project, but the information was difficult to approach.",
       "The students first identified what each part of the display was supposed to do. One section introduced the question, another described the procedure, and a third explained the observations. They gave those sections clear headings. They shortened repeated explanations and moved extra details to a separate handout that visitors could take away.",
@@ -2630,26 +2630,26 @@ export const gradeFourLessons = [
     ],
     "question": "How is the text mainly organized?",
     "options": [
-      "As a list of unrelated science facts",
-      "As a comparison of two kinds of plants",
+      "As a list of science facts the club learned from its project",
+      "As a comparison between the original display board and the separate handout",
       "As a problem, changes to address it, and a check of the result"
     ],
     "answer": 2,
     "hint": "Track the job of each paragraph.",
     "explanation": "The text begins with reading difficulties and follows the club’s response and review.",
     "evidenceOptions": [
-      "The text describes hard-to-read paragraphs, then headings and larger letters, then a second practice viewing.",
-      "The display was used during a school evening.",
-      "An unfamiliar word needed a definition."
+      "The text describes hard-to-read paragraphs, then headings and larger letters, and finally a second practice viewing.",
+      "Most visitors found the project question and one observation quickly, and a few asked about one unfamiliar word.",
+      "The club moved extra details to a handout and placed the board where two people could stand beside it."
     ],
     "evidenceAnswer": 0,
     "evidenceHint": "The sequence of problem, changes, and checking shows the overall structure.",
     "evidenceExplanation": "The sequence of problem, changes, and checking shows the overall structure.",
     "reasoningQuestion": "Why does evidence from several paragraphs work better here than one vocabulary detail?",
     "reasoningOptions": [
-      "A single word is never important in any text.",
+      "The vocabulary detail comes from the end, so it shows the conclusion.",
       "The question asks about the organization of the whole text.",
-      "Long evidence is always the best evidence."
+      "Several paragraphs together are longer, so they must be stronger evidence."
     ],
     "reasoningAnswer": 1,
     "reasoningHint": "To explain overall structure, show how major sections relate, not just what one sentence contains.",
@@ -2692,16 +2692,16 @@ export const gradeFourLessons = [
     ],
     "question": "Why did the first visitor make a different center line?",
     "options": [
-      "She did not receive a rectangle.",
+      "She was in a hurry and did not reread the first step.",
       "The directions did not specify which edges should meet.",
-      "She skipped every instruction."
+      "The rectangle she used was a different size from the model."
     ],
     "answer": 1,
     "hint": "Find what the writers assumed but did not state.",
     "explanation": "The original directions allowed more than one way to fold the rectangle.",
     "evidenceOptions": [
-      "The writers had made several holders.",
-      "A second visitor tried the revised version.",
+      "The writers understood what they meant because they had already made several holders and pictured the paper the same way.",
+      "The club revised the first step to name the long edges and added a labeled sketch for the next visitor.",
       "The visitor joined the short edges, while the writers meant the long edges; the words did not specify the edges."
     ],
     "evidenceAnswer": 2,
@@ -2709,9 +2709,9 @@ export const gradeFourLessons = [
     "evidenceExplanation": "The different interpretations and missing instruction directly explain the unexpected fold.",
     "reasoningQuestion": "Why does the edge detail explain the problem better than the writers’ experience alone?",
     "reasoningOptions": [
-      "Experience proves directions cannot have mistakes.",
+      "The writers’ experience shows they could not have made a mistake in step one.",
       "It names the exact missing information that led to a different result.",
-      "It proves sketches are unnecessary."
+      "It shows that adding a sketch was the only change the club needed to make."
     ],
     "reasoningAnswer": 1,
     "reasoningHint": "A specific link between an instruction and its result explains the cause.",
@@ -2754,26 +2754,26 @@ export const gradeFourLessons = [
     ],
     "question": "Which conclusion is best supported?",
     "options": [
-      "The shorter wait may relate to the new arrangement and the smaller crowd.",
-      "The program table caused every improvement.",
-      "Changing a desk can never affect a line."
+      "The shorter wait may relate to both the new arrangement and the smaller crowd that evening.",
+      "The program table caused the shorter wait, so it should be used at every event.",
+      "The smaller crowd alone explains the wait, so the table made no difference."
     ],
     "answer": 0,
     "hint": "Look for more than one difference between evenings.",
     "explanation": "Both the arrangement and the number of arrivals changed, so the notes cannot separate their effects.",
     "evidenceOptions": [
-      "The art show had room tickets.",
-      "The desk handled only tickets on the second evening, which also had fewer arrivals during its busiest period.",
-      "A reporter wrote a headline."
+      "Volunteers noticed that each visitor waited while someone found a program and then searched for the correct ticket.",
+      "The desk handled only tickets on the second evening, which also had fewer visitors arriving during its busiest period.",
+      "A student reporter began a headline about the new table, then looked at the attendance notes beside the timing sheet."
     ],
     "evidenceAnswer": 1,
     "evidenceHint": "This pair identifies the two changes relevant to the shorter wait.",
     "evidenceExplanation": "This pair identifies the two changes relevant to the shorter wait.",
     "reasoningQuestion": "Why does this pair of details support a cautious conclusion?",
     "reasoningOptions": [
-      "It proves both changes mattered equally.",
+      "It shows that both changes helped by exactly the same amount on the second evening.",
       "It shows that two relevant conditions changed, so one cause cannot be isolated.",
-      "It tells us nobody waited at all."
+      "It shows the reporter’s first headline was correct about the table’s effect."
     ],
     "reasoningAnswer": 1,
     "reasoningHint": "The notes show possible explanations but do not measure the effect of each separately.",
@@ -2800,14 +2800,14 @@ export const gradeFourLessons = [
       "construct",
       "reconstruct"
     ],
-    "wordQuestion": "Which word means build again?",
+    "wordQuestion": "Which word means not organized in a clear way?",
     "wordOptions": [
-      "reconstruct",
+      "unstructured",
       "construction paper",
-      "unstructured"
+      "reconstruct"
     ],
     "wordAnswer": 0,
-    "wordHint": "Combine re-, meaning again, with construct.",
+    "wordHint": "Combine un-, meaning not, with structured.",
     "text": [
       "Guide A — Before your first visit to the model-making studio, reserve a place and choose a project. When you arrive, leave your bag in the marked area and collect a tray of materials. Next, listen to a short introduction before starting work. At the end of the session, return unused materials and place your model in a box for the trip home.",
       "Guide A continues — Each step prepares you for the next. Reserving a place helps the studio prepare enough trays. Keeping bags in one area leaves room around the worktables. Returning unused materials makes them available for later visitors. The guide follows a visit from planning through departure.",
@@ -2816,17 +2816,17 @@ export const gradeFourLessons = [
     ],
     "question": "How do the guides organize their information differently?",
     "options": [
-      "Both only explain a single accident.",
+      "Guide A compares two tables; Guide B lists steps in order.",
       "Guide A follows a sequence; Guide B compares choices.",
-      "Guide A gives opinions only; Guide B lists dates."
+      "Both guides follow a visit from arrival to departure."
     ],
     "answer": 1,
     "hint": "Ask whether each guide answers “What next?” or “How are the choices alike and different?”",
     "explanation": "Guide A follows the visit, while Guide B compares the table options.",
     "evidenceOptions": [
-      "Both guides name the studio.",
-      "Both guides mention materials.",
-      "Guide A moves from reserving to leaving; Guide B compares the quiet and group tables."
+      "Guide A explains that reserving a place helps the studio prepare enough trays of materials.",
+      "Guide B says both tables have the same basic materials and an instructor nearby for help.",
+      "Guide A moves step by step from reserving to leaving; Guide B compares the quiet and group tables."
     ],
     "evidenceAnswer": 2,
     "evidenceHint": "The details show the different organizing patterns, not just their shared topic.",
@@ -2834,8 +2834,8 @@ export const gradeFourLessons = [
     "reasoningQuestion": "Why is naming the guides’ shared materials less useful for this question?",
     "reasoningOptions": [
       "It shows a shared topic but does not explain the different structures.",
-      "Materials cannot appear in a guide.",
-      "It proves the guides have different authors."
+      "It shows the guides were written for the same studio, so they are organized alike.",
+      "It is a detail from only one guide, so it cannot be used for a comparison."
     ],
     "reasoningAnswer": 0,
     "reasoningHint": "The question asks how information is arranged, not only what it is about.",
@@ -2879,24 +2879,24 @@ export const gradeFourLessons = [
     "question": "How do the accounts differ in focus?",
     "options": [
       "A gives one participant’s experience; B explains broader organization using gathered information.",
-      "A counts every volunteer; B describes only its writer’s brushstroke.",
-      "Both writers painted beside the same neighbor."
+      "A explains how the project was planned; B describes the writer’s own day of painting at the wall.",
+      "A and B both describe the whole project, but B uses more feelings and personal memories."
     ],
     "answer": 0,
     "hint": "Compare what each writer experienced directly and what each reports.",
     "explanation": "The journal provides a firsthand perspective; the newsletter gathers information about the whole project.",
     "evidenceOptions": [
-      "The mural includes blue paint.",
-      "The journal describes a shaky first brushstroke; the report uses interviews and a schedule to explain planning.",
-      "The painting happened on Saturday."
+      "The journal says the writer painted beside a neighbor; the report says volunteers prepared the wall on Friday.",
+      "The journal describes a shaky first brushstroke; the report uses interviews and a schedule to explain how the project was planned.",
+      "The journal mentions filling a blue section by afternoon; the report says three groups painted the wall on Saturday."
     ],
     "evidenceAnswer": 1,
     "evidenceHint": "The pair shows personal experience in A and information gathered from others in B.",
     "evidenceExplanation": "The pair shows personal experience in A and information gathered from others in B.",
     "reasoningQuestion": "Why does this pair explain the difference better than the shared date?",
     "reasoningOptions": [
-      "It proves one account is automatically true and the other false.",
-      "A date can never be included in evidence.",
+      "It proves the journal is less accurate because it describes feelings.",
+      "It shows the report is more reliable because it gathers more people’s views.",
       "It identifies each writer’s access to information and chosen focus."
     ],
     "reasoningAnswer": 2,
@@ -2940,25 +2940,25 @@ export const gradeFourLessons = [
     ],
     "question": "Why do the sources favor different routes?",
     "options": [
-      "They disagree about where the pavilion is.",
+      "They disagree about which route reaches the pavilion in less time.",
       "They consider different needs: a shorter walk and moving supplies smoothly.",
-      "Neither source knows anything about the paths."
+      "They walked on different days, so one route was muddy and the other was dry."
     ],
     "answer": 1,
     "hint": "Compare the purpose of each trip.",
     "explanation": "The recommendations reflect different priorities rather than a simple contradiction.",
     "evidenceOptions": [
-      "A values the shorter route for lightly loaded walkers; B values the smooth surface for carts.",
-      "Both sources mention the pavilion.",
-      "B describes a wide turn."
+      "A values the shorter route for lightly loaded walkers; B values the smooth paved surface for guiding carts.",
+      "A says water sometimes collects in a low section after rain; B says the paved route took longer.",
+      "A says the gravel trail shows the pavilion early; B says the paved path has a wide turn near it."
     ],
     "evidenceAnswer": 0,
     "evidenceHint": "The paired priorities explain why the routes are recommended for different situations.",
     "evidenceExplanation": "The paired priorities explain why the routes are recommended for different situations.",
     "reasoningQuestion": "Why is a detail from each source needed here?",
     "reasoningOptions": [
-      "The longest source must decide every question.",
-      "Two sources always prove the same recommendation.",
+      "The source with more details should decide which single route is better for every group.",
+      "Two sources are needed only to show that they mention the same pavilion.",
       "The comparison depends on understanding both purposes, not just one feature."
     ],
     "reasoningAnswer": 2,
@@ -3002,26 +3002,26 @@ export const gradeFourLessons = [
     ],
     "question": "What plan combines the main concerns of both letters?",
     "options": [
-      "Remove all explanations permanently.",
-      "Keep every recording on during the quiet hour.",
-      "Try a quiet hour with clearer captions and staff help, then gather feedback."
+      "Keep the recordings on but turn the volume down slightly for every visitor.",
+      "Turn off all recordings every day, since captions already explain the models.",
+      "Try a quiet hour with clearer captions and staff help, then gather visitor feedback."
     ],
     "answer": 2,
     "hint": "A wants less background sound; B wants the explanations to remain available.",
     "explanation": "The combined plan addresses sound preferences and access to information.",
     "evidenceOptions": [
-      "A visited the museum once.",
+      "A says that on one visit, overlapping recordings made it difficult to follow a single display.",
       "A proposes a quieter option; B asks for written steps and someone to answer questions.",
-      "The museum has moving models."
+      "B says several demonstrations explain a sequence that the labels do not fully describe."
     ],
     "evidenceAnswer": 1,
     "evidenceHint": "The pair states the two needs the combined plan must address.",
     "evidenceExplanation": "The pair states the two needs the combined plan must address.",
     "reasoningQuestion": "Why is this pair more useful than simply noting that the museum has models?",
     "reasoningOptions": [
-      "It links the recommendation to the specific needs raised by both writers.",
-      "It proves every visitor dislikes recordings.",
-      "It tells the museum’s exact operating hours."
+      "It links the recommendation to the specific needs that both writers raised in their letters.",
+      "It shows that most visitors would prefer the museum without any recordings.",
+      "It proves the volunteer agrees with every part of the visitor’s proposal."
     ],
     "reasoningAnswer": 0,
     "reasoningHint": "Relevant reasons explain why the proposed action fits the problem.",
@@ -3042,7 +3042,7 @@ export const gradeFourLessons = [
     "label": "What the Archive Can Tell Us",
     "focus": "Combine sources without overclaiming",
     "pattern": "The prefix trans-",
-    "model": "The prefix trans- can mean across. Transatlantic describes something across the Atlantic Ocean.",
+    "model": "The prefix trans- appears in transport, transfer, and transatlantic. Each word describes moving or reaching from one side or place to another.",
     "words": [
       "transfer",
       "transport",
@@ -3055,7 +3055,7 @@ export const gradeFourLessons = [
       "Again"
     ],
     "wordAnswer": 1,
-    "wordHint": "Use the explanation in the model.",
+    "wordHint": "Think about a ship that sails from one side of an ocean to the other.",
     "text": [
       "Source A — An old festival program: The program for the town’s first story festival lists four events: a morning reading, a puppet performance, a family story circle, and an evening concert. It names the community hall as the location and thanks a volunteer team. It does not record how many people attended or which event they liked best.",
       "Source A continues: A printed program shows what organizers planned to offer. It may not show every change made during the day. A reader who wants to know what actually happened would need another source, such as a participant’s account or a report written after the event.",
@@ -3064,16 +3064,16 @@ export const gradeFourLessons = [
     ],
     "question": "Which statement combines information from both sources accurately?",
     "options": [
-      "All visitors preferred the concert.",
+      "The program shows that four events happened as planned, and the letter shows that most visitors enjoyed the concert.",
       "The program planned several activities, and a participant describes attending two of them with one room change.",
-      "The festival had no morning reading."
+      "The letter shows the puppet show was canceled, and the program shows it was replaced by a family story circle."
     ],
     "answer": 1,
     "hint": "Keep plans separate from one participant’s experience.",
     "explanation": "The program documents planned activities; the letter describes the reading and changed puppet location.",
     "evidenceOptions": [
-      "The program thanks volunteers.",
-      "The letter writer has a brother.",
+      "The program names the community hall as the location and thanks a volunteer team; the letter writer went with a brother.",
+      "The program does not record how many people attended; the letter writer left before the concert and enjoyed a neighbor’s story.",
       "The program lists a reading and puppet performance; the letter describes the reading and finding the puppets in another room."
     ],
     "evidenceAnswer": 2,
@@ -3082,8 +3082,8 @@ export const gradeFourLessons = [
     "reasoningQuestion": "Why does this evidence not support a claim about everyone’s favorite event?",
     "reasoningOptions": [
       "A program and one letter do not report every attendee’s preference.",
-      "Printed programs are always incorrect.",
-      "A person cannot enjoy a morning event."
+      "The program was printed before the event, so none of its details can be used.",
+      "The letter writer left early, so the letter cannot describe any event."
     ],
     "reasoningAnswer": 0,
     "reasoningHint": "Match the size of a claim to what the sources actually document.",
@@ -3126,26 +3126,26 @@ export const gradeFourLessons = [
     ],
     "question": "Which grouping best helps readers follow the explanation?",
     "options": [
-      "Put the shortest notes first, regardless of topic.",
-      "Mix a note from every group in each sentence.",
+      "Keep the notes in the order the cards fell, since every fact is useful.",
+      "Put the visitor notes first, because visitors are the most important readers.",
       "Group selection, arrangement, and visitor-use notes into separate sections."
     ],
     "answer": 2,
     "hint": "Choose groups based on related ideas and reader needs.",
     "explanation": "Topic groups help each paragraph serve a clear purpose.",
     "evidenceOptions": [
-      "The notes were written on cards.",
+      "At first, the writer copied the cards in the order they had fallen onto the desk, mixing different topics.",
       "The club formed groups for choosing and checking, arranging and labeling, and helping visitors.",
-      "The return basket was beside the display."
+      "The notes included checking books for loose pages and placing a return basket beside the display."
     ],
     "evidenceAnswer": 1,
     "evidenceHint": "The three groups show how related information can be organized for readers.",
     "evidenceExplanation": "The three groups show how related information can be organized for readers.",
     "reasoningQuestion": "Why is grouping by topic more useful than grouping only by sentence length?",
     "reasoningOptions": [
-      "Long sentences always contain the most important information.",
-      "Readers need related ideas together to understand a process or find information.",
-      "Every paragraph must have the same number of words."
+      "Longer sentences usually hold the main ideas, so they should come first in a paragraph.",
+      "Readers need related ideas grouped together to understand a process or find information quickly.",
+      "Paragraphs with the same number of words are easier for every reader to follow."
     ],
     "reasoningAnswer": 1,
     "reasoningHint": "Organization follows meaning and purpose, not just the size of the sentences.",
@@ -3166,7 +3166,7 @@ export const gradeFourLessons = [
     "label": "Borrow the Idea, Keep Your Voice",
     "focus": "Accurate paraphrasing",
     "pattern": "The root bio",
-    "model": "The Greek root bio means life. A biography is a written account of a person’s life.",
+    "model": "The Greek root bio means life, and graph relates to writing. Biology is the study of living things.",
     "words": [
       "biography",
       "biology",
@@ -3179,7 +3179,7 @@ export const gradeFourLessons = [
       "An account of a person’s life"
     ],
     "wordAnswer": 2,
-    "wordHint": "Combine the model’s life and written-account meanings.",
+    "wordHint": "Combine life with writing.",
     "text": [
       "Source note — The art club keeps usable scraps in clear containers labeled by material. Small paper pieces go in one container, fabric pieces in another, and cardboard in a third. Before starting a project, students look through the containers to see whether a saved piece will meet their needs. New materials are available when the scraps are unsuitable.",
       "A writer wanted to explain this routine in a school guide. Her first draft copied the source note almost word for word. Changing “students” to “children” did not make the wording her own. She needed to understand the idea, put the source aside, and explain the routine in a new sentence pattern while keeping its meaning.",
@@ -3189,24 +3189,24 @@ export const gradeFourLessons = [
     "question": "Which paraphrase best preserves the source note’s meaning?",
     "options": [
       "The club sorts usable scraps for students to check before choosing new materials.",
-      "The club never allows students to use new supplies.",
-      "All art clubs use only cardboard."
+      "The club keeps paper, fabric, and cardboard so students never need new supplies.",
+      "Students must use saved scraps first, and the club buys new materials only once a year."
     ],
     "answer": 0,
     "hint": "Keep both reuse and the option of new materials.",
     "explanation": "The paraphrase retains the routine without turning a preference into an absolute rule.",
     "evidenceOptions": [
-      "The writer made a school guide.",
+      "The source says small paper pieces go in one container, fabric pieces in another, and cardboard pieces in a third container.",
       "The source says students check saved pieces first and can use new materials when scraps are unsuitable.",
-      "There are three containers in the example."
+      "The writer’s first draft copied the source note almost word for word and changed only one word."
     ],
     "evidenceAnswer": 1,
     "evidenceHint": "Both parts of the original routine are needed to avoid an inaccurate absolute claim.",
     "evidenceExplanation": "Both parts of the original routine are needed to avoid an inaccurate absolute claim.",
     "reasoningQuestion": "Why would “The club never uses new supplies” be weaker than the selected paraphrase?",
     "reasoningOptions": [
-      "It is shorter than the original note.",
-      "It leaves out the color of the containers.",
+      "It is shorter than the original note, so it leaves out the routine.",
+      "It does not mention the three containers, which a paraphrase must include.",
       "It contradicts the source’s explicit allowance for new materials."
     ],
     "reasoningAnswer": 2,
@@ -3250,8 +3250,8 @@ export const gradeFourLessons = [
     ],
     "question": "Which revision best matches the evidence?",
     "options": [
-      "The labels are perfect for everyone.",
-      "No student understood the labels.",
+      "Most students found a puzzle quickly, so the labels work well for the whole school library.",
+      "Six of eight students found a puzzle, so the labels need no further changes.",
       "Six of eight students found a puzzle without help, while two needed an explanation."
     ],
     "answer": 2,
@@ -3259,17 +3259,17 @@ export const gradeFourLessons = [
     "explanation": "The revised claim accurately describes the observed group and its mixed results.",
     "evidenceOptions": [
       "Six students found their puzzle without help, and two asked for an explanation.",
-      "Cam wrote for a newsletter.",
-      "The shelf held puzzles."
+      "Cam’s partner pointed out that the notes did not measure how many seconds each search took.",
+      "The labels showed the number of pieces and a small picture of each puzzle."
     ],
     "evidenceAnswer": 0,
     "evidenceHint": "These counts directly support a limited description of the trial.",
     "evidenceExplanation": "These counts directly support a limited description of the trial.",
     "reasoningQuestion": "Why do the counts support this revision better than the word perfect?",
     "reasoningOptions": [
-      "Numbers always prove that a design will work forever.",
+      "Numbers are more exact than words, so the counts prove the labels will keep working for every group.",
       "The counts describe the observed results, including a limitation the absolute claim hides.",
-      "The word perfect is too difficult to spell."
+      "The word perfect is an opinion, and opinions should never appear in a newsletter."
     ],
     "reasoningAnswer": 1,
     "reasoningHint": "A precise statement reports the evidence and does not erase exceptions.",
@@ -3312,25 +3312,25 @@ export const gradeFourLessons = [
     ],
     "question": "Which plan uses both sources most effectively?",
     "options": [
-      "Move guide pickup away from the door, add numbered signs, and improve model explanations before another trial.",
-      "Add more decorations only to the first table.",
-      "Remove all presenters and declare the exhibit successful."
+      "Move guide pickup away from the door, add numbered signs, and improve model explanations before running another trial.",
+      "Add numbered signs to the model tables and declare the exhibit a success, since visitors found the next table.",
+      "Replace presenters with detailed written cards so visitors never need to ask any questions at all."
     ],
     "answer": 0,
     "hint": "Connect Source A’s navigation needs with Source B’s explanation needs.",
     "explanation": "The combined plan addresses movement and understanding, with a follow-up check rather than an unsupported success claim.",
     "evidenceOptions": [
-      "The exhibit includes inventions made by students.",
+      "A says observers suggested guides in two locations and numbered signs, but those changes were not tested during the trial.",
       "A reports entrance crowding and questions about the route; B reports questions about model purposes and incomplete cards.",
-      "The model tables have space around them."
+      "B says presenters still wanted time for questions and that written cards would provide a starting point for visitors."
     ],
     "evidenceAnswer": 1,
     "evidenceHint": "The paired details identify the different needs the final plan should address.",
     "evidenceExplanation": "The paired details identify the different needs the final plan should address.",
     "reasoningQuestion": "Why is evidence from both notes necessary for this recommendation?",
     "reasoningOptions": [
-      "Both sources must have identical wording to be useful.",
-      "The longer source should replace the shorter one.",
+      "Each source alone suggests the same changes, so using both makes the recommendation sound more convincing.",
+      "Source A has more details about the trial, so it should decide the plan, and Source B can be left out.",
       "The plan covers navigation and understanding, and each source supplies relevant information about one of those needs."
     ],
     "reasoningAnswer": 2,
@@ -3384,7 +3384,7 @@ export const gradeFiveLessons = [
     "label": "The Observatory Question",
     "focus": "Inference across sources",
     "pattern": "The root scope",
-    "model": "The Greek root scope relates to looking or examining. A telescope is an instrument used to view distant objects.",
+    "model": "The Greek root scope relates to looking or examining. A microscope helps people examine very small things.",
     "words": [
       "telescope",
       "microscope",
@@ -3397,7 +3397,7 @@ export const gradeFiveLessons = [
       "telephone"
     ],
     "wordAnswer": 1,
-    "wordHint": "Use the definition in the model.",
+    "wordHint": "Tele- means far. Which scope word is for looking at things that are far away?",
     "sources": [
       {
         "id": "A",
@@ -3418,26 +3418,26 @@ export const gradeFiveLessons = [
     ],
     "question": "Which inference is best supported by both records?",
     "options": [
-      "The telescope needs to be replaced immediately.",
-      "Visitors should never ask volunteers questions.",
+      "The telescope’s focusing knob is broken and should be repaired before the next family evening.",
+      "Volunteers should stand closer to visitors so the line moves more quickly next time.",
       "Clearer instructions may help more than a repair that the checks do not indicate is needed."
     ],
     "answer": 2,
     "hint": "Connect the repeated explanations with the equipment checks and missing card.",
     "explanation": "The records point to an instruction problem rather than documented equipment damage.",
     "evidenceOptions": [
-      "A describes repeated focus explanations; B records correct focus and a missing instruction card.",
-      "A mentions families; B mentions repainting.",
-      "B says a new card has been requested."
+      "A describes repeated focus explanations to visitors; B records correct focus checks and a missing instruction card.",
+      "A says the volunteer wrote a suggestion in the notebook; B says a new card has been requested.",
+      "A says the observatory reopened after months of repairs; B says the room was repainted before the evening."
     ],
     "evidenceAnswer": 0,
     "evidenceHint": "A identifies what visitors needed, while B gives equipment results and a missing source of instructions.",
     "evidenceExplanation": "A identifies what visitors needed, while B gives equipment results and a missing source of instructions.",
     "reasoningQuestion": "Why is the combined evidence stronger than the request for a new card alone?",
     "reasoningOptions": [
-      "A request proves the new card has already worked.",
-      "It links an observed difficulty with checks that help distinguish possible causes.",
-      "It proves every visitor touched the knob."
+      "The request for a new card shows the staff already know it will solve the problem.",
+      "It links an observed difficulty with equipment checks that help distinguish between possible causes.",
+      "The volunteer was there in person, so the journal alone is enough to settle the question."
     ],
     "reasoningAnswer": 1,
     "reasoningHint": "Use both the visitor observations and the equipment checks; a proposed change is not a tested result.",
@@ -3492,16 +3492,16 @@ export const gradeFiveLessons = [
     ],
     "question": "How does reading both diaries change our understanding of Ren’s request?",
     "options": [
-      "It proves Jules does not care about the team.",
+      "It shows that Ren wanted to run last herself and used her timing notes to convince the whole team to agree with her.",
       "It shows that Ren was using observations to propose a trial, although Jules first interpreted her actions differently.",
-      "It proves the new order will win the event."
+      "It shows that Jules was right to keep the plan, because Ren admits the pattern might not continue."
     ],
     "answer": 1,
     "hint": "Compare Jules’s first assumption with Ren’s reason for watching the finish.",
     "explanation": "Ren’s account explains the purpose behind actions that Jules initially misunderstood.",
     "evidenceOptions": [
-      "Jules likes knowing when his turn comes.",
-      "Ren feels frustrated after the discussion.",
+      "Jules says he liked knowing exactly when his turn would come because the team practiced the same order all week.",
+      "Ren says she felt frustrated when Jules rejected the idea quickly before she explained her notes.",
       "Jules assumes Ren is distracted; Ren says she is recording how the order affects the final stretch."
     ],
     "evidenceAnswer": 2,
@@ -3567,24 +3567,24 @@ export const gradeFiveLessons = [
     "question": "Which summary includes both main ideas?",
     "options": [
       "The station teaches careful observation and uses shared-material routines to keep visits running.",
-      "The station is only a place to store pencils.",
-      "Visitors must agree on one answer before leaving."
+      "The station teaches visitors to sketch and count objects so they can agree on one answer after each walk.",
+      "The station mainly depends on volunteers who count clipboards and return guide sheets to folders."
     ],
     "answer": 0,
     "hint": "Look for the purpose of each source and how the purposes connect.",
     "explanation": "The two guides describe learning practices and the routines that support them.",
     "evidenceOptions": [
-      "A mentions sketches; B mentions folders.",
+      "A says leaders introduce a question before the walk; B says volunteers count clipboards before departure.",
       "A separates observations from guesses; B explains preparing equipment for the next group.",
-      "The station offers outdoor walks."
+      "A says groups compare notes at the end; B says the coordinator uses notes to prepare the next session."
     ],
     "evidenceAnswer": 1,
     "evidenceHint": "These details show each source’s main purpose and why both matter.",
     "evidenceExplanation": "These details show each source’s main purpose and why both matter.",
     "reasoningQuestion": "Why is a summary about attractive scenery incomplete?",
     "reasoningOptions": [
-      "Scenery is never worth describing.",
-      "Summaries must copy the final sentence exactly.",
+      "A summary should always describe the setting first, so scenery is the most important detail.",
+      "Scenery is mentioned in both sources, so it cannot help a reader tell them apart.",
       "The sources focus on inquiry and organization, not on whether the scenery is attractive."
     ],
     "reasoningAnswer": 2,
@@ -3606,7 +3606,7 @@ export const gradeFiveLessons = [
     "label": "The Record That Needed a Date",
     "focus": "Source context and limits",
     "pattern": "The prefix pre- and the suffix -view family",
-    "model": "Preview means to view before a main event. Review means to look again. Word parts help, but the sentence decides the intended meaning.",
+    "model": "Review means to look again. Viewpoint means a way of seeing. Word parts help, but the sentence decides the intended meaning.",
     "words": [
       "preview",
       "review",
@@ -3645,16 +3645,16 @@ export const gradeFiveLessons = [
     ],
     "question": "What is the most useful next step before claiming the opening-night show moved?",
     "options": [
-      "Treat the handwriting as proof of a date.",
+      "Ask the former club member to describe the opening-night show in more detail.",
       "Find a dated record linking the note to a particular performance.",
-      "Ignore every source except the schedule."
+      "Use the printed schedule to show that the library event was the preview."
     ],
     "answer": 1,
     "hint": "The unresolved issue is which event the undated note describes.",
     "explanation": "A dated connection is needed; neither the note nor the interview supplies it.",
     "evidenceOptions": [
-      "The note mentions shelves.",
-      "The theater club had a new room.",
+      "B was printed before the events, so it documents plans rather than proving every performance happened as listed.",
+      "A says the audience sat between the shelves, and C remembers performing in the library.",
       "A has no date, B lists a separate library preview, and C cannot identify which event is remembered."
     ],
     "evidenceAnswer": 2,
@@ -3663,8 +3663,8 @@ export const gradeFiveLessons = [
     "reasoningQuestion": "Why do three mentions of the library not prove the opening-night claim?",
     "reasoningOptions": [
       "They may concern different events, and none connects the undated note to opening night.",
-      "A library cannot host a performance.",
-      "Three sources must always disagree."
+      "The three sources were written at different times, so none of them can be trusted.",
+      "The schedule lists Thursday and Friday shows, which proves the library show was a preview."
     ],
     "reasoningAnswer": 0,
     "reasoningHint": "Repeated words are not enough; the sources must refer to the same event for that conclusion.",
@@ -3724,25 +3724,25 @@ export const gradeFiveLessons = [
     ],
     "question": "Which plan integrates the notes most directly?",
     "options": [
-      "Offer step cards during work and a shared supply area for additional testing.",
-      "Remove independent design time entirely.",
-      "Give every group unlimited paper and no instructions."
+      "Offer step cards during work time and a shared supply area where groups can get more paper for testing.",
+      "Demonstrate the whole build twice before work time and give each table more paper.",
+      "Give visitors more time to design, since most comments praised trying their own ideas."
     ],
     "answer": 0,
     "hint": "Connect repeated instruction needs with uneven material use.",
     "explanation": "Step cards address A and B; a shared supply area responds to C.",
     "evidenceOptions": [
-      "Visitors liked their own designs.",
+      "A says visitors praised the chance to try their own designs; B says the instructor demonstrated the entire build before work began.",
       "A requests instructions to revisit, B records repeated step questions, and C shows different extra-paper needs.",
-      "The instructor used tables."
+      "B says visitors at one table continued independently; C says each table received twelve sheets of paper."
     ],
     "evidenceAnswer": 1,
     "evidenceHint": "The three details explain why the plan needs both instructional and material changes.",
     "evidenceExplanation": "The three details explain why the plan needs both instructional and material changes.",
     "reasoningQuestion": "Why group A and B together rather than give each source an unrelated paragraph?",
     "reasoningOptions": [
-      "They were written by the same person.",
-      "They prove all visitors had identical experiences.",
+      "A and B come from the same workshop, while C was written by a different person.",
+      "A and B both describe the opening explanation, so they should be summarized as one source.",
       "They address the same need, while C contributes a second part of the plan."
     ],
     "reasoningAnswer": 2,
@@ -3803,26 +3803,26 @@ export const gradeFiveLessons = [
     ],
     "question": "What best explains the different conclusions?",
     "options": [
-      "One observer must have invented the results.",
-      "The labels changed into a different language.",
+      "The second observer counted requests for help, while the first observer did not record them.",
+      "The first group was more careful because it had fewer people and an experienced observer.",
       "The trials had different conditions that could affect how easily people found the hooks."
     ],
     "answer": 2,
     "hint": "Compare visibility, crowds, and groups rather than only the labels.",
     "explanation": "The conditions differed, so both results can be accurate descriptions of their own trials.",
     "evidenceOptions": [
-      "A used visible hooks in a small session; B included crowding and hooks hidden by a board; C identifies these differences.",
-      "Both trials included tools.",
-      "Trial A had six people and therefore must be more accurate."
+      "A used visible hooks in a small session; B included crowding and hooks hidden by a board; C identifies these differences in conditions.",
+      "A shows that all six participants returned tools to the marked hooks without help, while B shows that four of ten asked.",
+      "B says some hooks were hidden behind a temporary display board, visitors came from several directions, and the area needed work."
     ],
     "evidenceAnswer": 0,
     "evidenceHint": "The details identify plausible differences relevant to the task.",
     "evidenceExplanation": "The details identify plausible differences relevant to the task.",
     "reasoningQuestion": "Why is “the two reports disagree, so one is false” too strong?",
     "reasoningOptions": [
-      "All observations have the same conditions.",
-      "Different contexts can produce different results without either record being false.",
-      "A larger group always gives a perfect answer."
+      "The larger group in Trial B makes its result more reliable than the result of Trial A.",
+      "Different contexts can produce different results without either record being false or careless.",
+      "The label design changed between trials, so the reports are not about the same labels."
     ],
     "reasoningAnswer": 1,
     "reasoningHint": "Explain the differences that matter before judging whether the records actually conflict.",
@@ -3877,16 +3877,16 @@ export const gradeFiveLessons = [
     ],
     "question": "What understanding comes from reading the accounts together?",
     "options": [
-      "Listening requires accepting an idea without questions.",
+      "Mina’s design works only after the group replaces it with a different plan from the actors.",
       "A chance to explain fully helps Mina contribute, and discussion can still improve the idea.",
-      "Mina’s first drawing solves every problem immediately."
+      "Mina stops sharing ideas because her design has a problem with one of the entrances."
     ],
     "answer": 1,
     "hint": "Connect Mina’s feelings with the actions shown in the scene.",
     "explanation": "The sources show how respectful listening supports participation and useful revision.",
     "evidenceOptions": [
-      "There is a bench on the stage.",
-      "Devon places a notebook on a table.",
+      "A says Mina kept her drawing in her notebook while others spoke; B shows two actors debating where a bench should go.",
+      "A says one entrance still needed to move; B says one actor questioned where the route ended.",
       "A describes Mina finishing her explanation; B shows the group listening and then testing a revised route."
     ],
     "evidenceAnswer": 2,
@@ -3895,8 +3895,8 @@ export const gradeFiveLessons = [
     "reasoningQuestion": "What does Source A add that Source B does not directly provide?",
     "reasoningOptions": [
       "Mina’s own account of how interrupted speech and later attention felt.",
-      "The exact words Devon says to the group.",
-      "A description of the revised entrance on the floor."
+      "Devon’s exact words when he asks the group to hear Mina’s whole explanation first.",
+      "A description of the second entrance Mina drew and how the group tested the path."
     ],
     "reasoningAnswer": 0,
     "reasoningHint": "A first-person narrator can reveal thoughts and feelings that an external scene does not state.",
@@ -3956,25 +3956,25 @@ export const gradeFiveLessons = [
     ],
     "question": "Why is the claim that new wheels caused Thursday’s success unsupported?",
     "options": [
-      "The interview says the new wheels had not arrived and the old wheels were used.",
-      "Timelines can never contain useful facts.",
-      "Thursday occurred before Monday."
+      "The interview says the new wheels had not arrived, so the old wheels were used on Thursday.",
+      "The timeline shows the track was shortened, which is the only change that matters.",
+      "The budget note shows the wheels cost too much, so the team chose a cheaper part."
     ],
     "answer": 0,
     "hint": "Separate ordering a part from actually using it.",
     "explanation": "A supposed cause cannot explain this run if that part was not used.",
     "evidenceOptions": [
-      "The club had a budget.",
+      "A lists the wheel order on Monday and the successful run on Thursday, after the cart shape and track also changed.",
       "B states that the new wheels had not arrived; C distinguishes an order from receiving and using parts.",
-      "A lists events on four days."
+      "B says the team changed the cart’s shape because a wide corner caught against a guide rail."
     ],
     "evidenceAnswer": 1,
     "evidenceHint": "These details directly challenge the assumption that ordered wheels were used.",
     "evidenceExplanation": "These details directly challenge the assumption that ordered wheels were used.",
     "reasoningQuestion": "Why does the timeline alone not establish the cause of success?",
     "reasoningOptions": [
-      "Every earlier event causes every later event.",
-      "A timeline is always a personal opinion.",
+      "The timeline was written by a reporter, so its dates are probably incorrect.",
+      "It lists events in order, but the team changed so many things that no explanation is possible.",
       "It records order but not the relevant mechanisms or whether the ordered parts were used."
     ],
     "reasoningAnswer": 2,
@@ -4035,26 +4035,26 @@ export const gradeFiveLessons = [
     ],
     "question": "Which recommendation best uses all three sources?",
     "options": [
-      "Install a station at the entrance and stop checking it.",
-      "Reject the idea because five people liked the old arrangement.",
+      "Install a station near the busiest table, since most survey respondents wanted water closer.",
+      "Keep the hallway fountain, because the caretaker found spills during the temporary trial.",
       "Trial a station near the storage wall with spill checks and a review of visitor access."
     ],
     "answer": 2,
     "hint": "Use convenience, upkeep, and room layout together.",
     "explanation": "The trial responds to the preference while addressing maintenance and space concerns.",
     "evidenceOptions": [
-      "A favors closer water, B calls for spill checks away from tables, and C identifies visible space by the storage wall.",
-      "A has twenty respondents.",
-      "The room has an entrance."
+      "A favors closer water, B calls for spill checks away from worktables, and C identifies visible open space by the storage wall.",
+      "A says fifteen of twenty respondents wanted water closer; B says the caretaker found water near the busiest table twice.",
+      "B suggests a regular check during each session; C says the entrance corner has more passing traffic and a narrow route."
     ],
     "evidenceAnswer": 0,
     "evidenceHint": "Each source contributes a different condition needed for the recommendation.",
     "evidenceExplanation": "Each source contributes a different condition needed for the recommendation.",
     "reasoningQuestion": "Why include a trial and an access review instead of claiming the plan is proven?",
     "reasoningOptions": [
-      "Preferences automatically establish all practical details.",
-      "The sources describe needs and possible locations but leave some outcomes untested.",
-      "Every trial must end in failure."
+      "Most respondents wanted closer water, so the plan only needs a short trial for the rest.",
+      "The sources describe needs and possible locations but leave some outcomes, like spills and access, untested.",
+      "The caretaker found spills, which means the station will probably fail without a trial."
     ],
     "reasoningAnswer": 1,
     "reasoningHint": "Acknowledge the gap between a supported proposal and a demonstrated result.",
@@ -4114,16 +4114,16 @@ export const gradeFiveLessons = [
     ],
     "question": "Which response best addresses the facilitator’s concern?",
     "options": [
-      "Keep the same schedule but promise ten extra minutes.",
+      "Shorten building time by ten minutes so every team can discuss its model for longer at the end of each session.",
       "Trial a shorter, clear introduction and use recovered time for focused discussion without cutting cleanup.",
-      "Cancel cleanup so discussion can continue indefinitely."
+      "Keep the schedule as it is, since the facilitator says the session cannot end any later."
     ],
     "answer": 1,
     "hint": "Locate time that can change without ignoring the fixed ending.",
     "explanation": "The schedule identifies repeated introductory content as a possible source of time, with essential directions preserved.",
     "evidenceOptions": [
-      "Students like discussion.",
-      "The room is used by another group.",
+      "A says three groups still had ideas to share when the session ended; C shows the meeting includes only five minutes of discussion.",
+      "B says cleanup cannot be skipped and reducing building time may leave teams without a model to discuss.",
       "A requests reflection, B requires a fixed end and cleanup, and C identifies repeated introductory directions."
     ],
     "evidenceAnswer": 2,
@@ -4131,9 +4131,9 @@ export const gradeFiveLessons = [
     "evidenceExplanation": "The combined evidence connects the desired benefit to a practical way of respecting the limits.",
     "reasoningQuestion": "Why should the response include Source B rather than dismiss it?",
     "reasoningOptions": [
-      "Its time constraint affects whether the proposal can actually be carried out.",
-      "Every concern disproves the original idea.",
-      "The facilitator’s title makes all other evidence irrelevant."
+      "Its fixed ending time and cleanup needs affect whether the proposal can actually be carried out.",
+      "The facilitator agrees that reflection matters, so the proposal needs no changes.",
+      "The facilitator runs the sessions, so the proposal should follow every suggestion exactly."
     ],
     "reasoningAnswer": 0,
     "reasoningHint": "Addressing a relevant concern strengthens a proposal by showing how it could work.",
@@ -4193,8 +4193,8 @@ export const gradeFiveLessons = [
     ],
     "question": "Which announcement best fits the sources?",
     "options": [
-      "Every student has agreed to attend on Tuesday.",
-      "Nobody is interested because scheduling questions remain.",
+      "Most students want a Tuesday club, so planners should announce a start date and plan the writing activities right away.",
+      "Twenty-two students will join the club, and planners now need to choose between drawing and writing.",
       "Twenty-two of thirty respondents expressed interest; planners still need to discuss meeting times and activities."
     ],
     "answer": 2,
@@ -4202,17 +4202,17 @@ export const gradeFiveLessons = [
     "explanation": "The revised wording reports the result while preserving the unanswered planning questions.",
     "evidenceOptions": [
       "A asked about interest only; B raises scheduling and activity questions; C assumes attendance at a Tuesday writing club.",
-      "The form had three answer choices.",
-      "One student mentioned an adult."
+      "A shows that twenty-two chose yes and five chose maybe; B says some students asked about drawing and oral storytelling too.",
+      "C underlines three problems in the draft; B notes one student asked whether an adult could collect them later."
     ],
     "evidenceAnswer": 0,
     "evidenceHint": "The sources show exactly where the draft adds conclusions the survey did not establish.",
     "evidenceExplanation": "The sources show exactly where the draft adds conclusions the survey did not establish.",
     "reasoningQuestion": "Why is the new announcement more accurate?",
     "reasoningOptions": [
-      "It makes the club sound more exciting.",
+      "It uses an exact number from the survey, and numbers make any announcement accurate.",
       "It identifies the measured group and leaves unasked questions open.",
-      "It changes every maybe response to yes."
+      "It removes Tuesday, which was the only problem in the first draft."
     ],
     "reasoningAnswer": 1,
     "reasoningHint": "Report what was asked and learned without turning it into a wider agreement.",
@@ -4233,7 +4233,7 @@ export const gradeFiveLessons = [
     "label": "A Sound Map for the School",
     "focus": "Integrating three perspectives",
     "pattern": "The suffix -ive",
-    "model": "The suffix -ive can form an adjective describing a quality or tendency: support → supportive.",
+    "model": "The suffix -ive can form an adjective describing a quality or tendency: create → creative.",
     "words": [
       "supportive",
       "effective",
@@ -4272,16 +4272,16 @@ export const gradeFiveLessons = [
     ],
     "question": "Which recommendation best combines the sources?",
     "options": [
-      "Close the alcove route whenever anyone reads.",
+      "Use the reading alcove for rehearsals during class changes, since the sound map shows that it is usually quiet.",
       "Explore scheduled rehearsals in the meeting room after clearing its doorway, and collect more observations.",
-      "Ban all spoken activities across the school."
+      "Move singing practice away from the music hall so the whole school stays quiet every afternoon."
     ],
     "answer": 1,
     "hint": "Account for sound, learning, and clear movement together.",
     "explanation": "The plan addresses rehearsal needs without blocking a regular route or claiming one map describes every day.",
     "evidenceOptions": [
-      "The class made a map in one afternoon.",
-      "The music room contains singing.",
+      "A shows that the hall beside the music room had repeated singing during practice; B says teachers do not want a completely silent school.",
+      "A says the map recorded one afternoon only; C says materials must be moved away from the meeting room doorway first.",
       "A identifies a passing route through the alcove, B suggests rehearsal space, and C describes conditions for using the meeting room."
     ],
     "evidenceAnswer": 2,
@@ -4290,8 +4290,8 @@ export const gradeFiveLessons = [
     "reasoningQuestion": "Why are the caretaker’s notes relevant even though they do not describe teaching?",
     "reasoningOptions": [
       "They identify space and movement constraints that affect whether a learning plan is workable.",
-      "Only maintenance staff can decide what students learn.",
-      "They prove the sound map is false."
+      "They show that the caretaker agrees with the teachers’ request for a separate rehearsal room.",
+      "They describe a different afternoon, which helps check whether the sound map is a pattern."
     ],
     "reasoningAnswer": 0,
     "reasoningHint": "Sources can contribute different kinds of information to the same decision.",
@@ -4351,25 +4351,25 @@ export const gradeFiveLessons = [
     ],
     "question": "Which outline best matches the article’s purpose?",
     "options": [
-      "Finding books; choosing books; returning and restocking books",
-      "Source A copied in full; Source B copied in full; Source C omitted",
-      "The longest quotation; the shortest quotation; the writer’s favorite word"
+      "Finding books; choosing books; returning books and restocking the exchange tables",
+      "Source A; Source B; Source C, in the order collected",
+      "Topic labels; personal recommendations; the order the notes were collected"
     ],
     "answer": 0,
     "hint": "Organize around the tasks readers need explained.",
     "explanation": "Task-based sections connect evidence to the article’s purpose.",
     "evidenceOptions": [
-      "A has four meetings in its log.",
+      "A says the topic table received many visits, while B says topic labels helped readers begin browsing.",
       "A records missed returns, while C explains sorting problems and a clearer return point.",
-      "B includes an interview."
+      "B says one reader found a book by hearing another visitor describe it, and C mentions storage boxes."
     ],
     "evidenceAnswer": 1,
     "evidenceHint": "These details belong together in a section explaining the return process.",
     "evidenceExplanation": "These details belong together in a section explaining the return process.",
     "reasoningQuestion": "Why place the missed-return and sorting details in the same section?",
     "reasoningOptions": [
-      "They have the same number of words.",
-      "They were necessarily written by one person.",
+      "They both come from notes taken during the same four meetings, so they belong side by side.",
+      "They both describe problems, and an article should put all of its problems in one section.",
       "They explain connected parts of returning books, even though they come from different sources."
     ],
     "reasoningAnswer": 2,
@@ -4430,26 +4430,26 @@ export const gradeFiveLessons = [
     ],
     "question": "Which statement best preserves the designer’s meaning?",
     "options": [
-      "The display works for every visitor without further testing.",
-      "The designer thinks no label helped anyone.",
-      "The labels helped some visitors, while the side approach still needs checking."
+      "The larger labels solved the layout problem for visitors entering from either side.",
+      "The designer thinks larger labels did not help, so the layout needs a new design.",
+      "The labels helped some visitors, while the side approach still needs checking with visitors."
     ],
     "answer": 2,
     "hint": "Keep both the useful result and the remaining question.",
     "explanation": "The interview’s positive finding is limited, and the trial confirms the gap in observation.",
     "evidenceOptions": [
-      "A says “helped some visitors” and calls for a side check; B records no side-passage visitors in the trial.",
-      "The designer was interviewed.",
-      "Twelve people attended the trial."
+      "A says “helped some visitors” and calls for a side check; B records that no visitors entered from the side passage in the trial.",
+      "B says most of the twelve visitors found a puzzle label without help, and two asked where the next display began.",
+      "A says larger print was one change; C says the student draft kept part of the designer’s positive statement."
     ],
     "evidenceAnswer": 0,
     "evidenceHint": "The interview and trial together support a qualified conclusion.",
     "evidenceExplanation": "The interview and trial together support a qualified conclusion.",
     "reasoningQuestion": "Why can a short exact quotation still be misleading?",
     "reasoningOptions": [
-      "Exact words are never useful evidence.",
+      "Short quotations leave out the speaker’s name, so readers cannot tell who said the words.",
       "Removing context or attaching a broader conclusion can change what readers think the speaker meant.",
-      "Every quotation must include an entire interview."
+      "A short quotation is always less accurate than a careful paraphrase that covers everything said in the whole interview."
     ],
     "reasoningAnswer": 1,
     "reasoningHint": "Keep the speaker’s important limits even when quoting only a small part.",
@@ -4470,7 +4470,7 @@ export const gradeFiveLessons = [
     "label": "The Paragraphs That Talk to Each Other",
     "focus": "Logical connections and revision",
     "pattern": "Choose a precise transition",
-    "model": "In contrast signals a difference. Consequently signals a result. In addition introduces another related point.",
+    "model": "In contrast signals a difference. In addition introduces another related point. Some transitions show that one thing happened because of another.",
     "words": [
       "in contrast",
       "consequently",
@@ -4483,7 +4483,7 @@ export const gradeFiveLessons = [
       "For instance"
     ],
     "wordAnswer": 0,
-    "wordHint": "Look for the relationship between cause and outcome.",
+    "wordHint": "Which word is built from consequence, meaning a result?",
     "sources": [
       {
         "id": "A",
@@ -4509,16 +4509,16 @@ export const gradeFiveLessons = [
     ],
     "question": "Which revision most improves the logic?",
     "options": [
-      "Keep “in contrast” because long transitions always sound better.",
+      "Replace “in contrast” with “in addition” and keep the final sentence so the report ends with confidence.",
       "Explain how missing dates caused confusion, connect dated captions to that problem, and propose a follow-up check.",
-      "Add more unrelated descriptions of the photographs."
+      "Add a sentence describing the largest photograph, then announce that dates have been added to every caption in the display."
     ],
     "answer": 1,
     "hint": "Ask how the proposed action responds to the evidence.",
     "explanation": "The revised chain connects observation, proposed response, and a way to evaluate the response.",
     "evidenceOptions": [
-      "The display contains photographs.",
-      "The student wrote four short sentences.",
+      "A says visitors began with the largest photograph; B says a short introductory panel would explain the sequence of events on display.",
+      "B says the changes had not yet been tried; C uses “in contrast” and ends by saying the project is finished.",
       "A reports mistaken time connections; B proposes dates and event groups; C leaves the connection unexplained and claims completion."
     ],
     "evidenceAnswer": 2,
@@ -4527,8 +4527,8 @@ export const gradeFiveLessons = [
     "reasoningQuestion": "Why is “The project is finished” an unsuitable evidence-based conclusion here?",
     "reasoningOptions": [
       "The sources describe a proposed change that has not yet been checked with visitors.",
-      "Every conclusion must be a question.",
-      "A report may never describe a finished project."
+      "The draft is too short, and a strong conclusion should only come after several full paragraphs.",
+      "The student did not quote any source, so the conclusion cannot be accepted."
     ],
     "reasoningAnswer": 0,
     "reasoningHint": "A conclusion should match the stage of work documented by the sources.",
@@ -4589,24 +4589,24 @@ export const gradeFiveLessons = [
     "question": "Which plan best meets the goals and limits in all three sources?",
     "options": [
       "Use clear activity descriptions, repeated start times, and availability signs while preserving choices and reset time.",
-      "Add three rooms and a personal instructor for each family.",
-      "Require every visitor to remain at one station all afternoon."
+      "Assign each family to one station at a time and add a volunteer to the busiest station to shorten its line.",
+      "Shorten each activity so groups can rotate faster, and skip resetting materials between groups to save time for visitors."
     ],
     "answer": 0,
     "hint": "Fit the visitors’ needs, volunteer observations, and fixed resources together.",
     "explanation": "The plan improves entry and flow within the stated limits while preserving choice.",
     "evidenceOptions": [
-      "The event has three kinds of activities.",
+      "A says many cards praised having choices; B says one station had a line while another station had empty seats at the busiest time.",
       "A requests advance descriptions, B identifies timing and line problems, and C allows sign and schedule changes within fixed resources.",
-      "Some stations have empty seats."
+      "B says volunteers repeated introductions; C says the next event must use the same rooms and the same number of volunteers each time."
     ],
     "evidenceAnswer": 1,
     "evidenceHint": "The source combination connects needs and feasible responses.",
     "evidenceExplanation": "The source combination connects needs and feasible responses.",
     "reasoningQuestion": "What should the final report distinguish most clearly?",
     "reasoningOptions": [
-      "Which source has the longest title.",
-      "Which visitor arrived first, even if it does not affect the plan.",
+      "Which suggestions came from visitors and which came from volunteers, so readers can rank them by importance.",
+      "Which activities were most popular, so planners can remove the stations with fewer visitors next time.",
       "Observed trial results, source-supported recommendations, and predictions that still need testing."
     ],
     "reasoningAnswer": 2,
